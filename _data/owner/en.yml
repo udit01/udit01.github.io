@@ -2,13 +2,13 @@
 # Owner's Personal Information
 ###########################################################
 # This is your brand name
-brand: "Your Brand"
+brand: "Computer Vision"
 
 # text below the brand name
 brand_sub_text: "$site_sample"
 
 # used for seo meta post author (if it's not defined in post)
-name: "Your Name"
+name: "Udit Jain"
 
 # home page top header texts
 home:
@@ -23,7 +23,7 @@ about:
 
 # if you don't want to add copyright year, comment or leave it blank.
 # the year during which the claimed copyright for the work was first asserted.
-copyright_start_year: "2022"
+copyright_start_year: "2020"
 
 # make sure creative_commons.enable is true in _data/conf/main.yml file
 creative_commons:
@@ -42,15 +42,15 @@ creative_commons:
 # seo meta this is needed for each language
 # If meta_description is not defined in front matter, it's created from (post / page) content,
 # if it has no content, this will be used for page description. It is also used in manifest.json
-meta_common_description: "Your meta description."
+meta_common_description: "Portfolio and Resume of Udit Jain, Computer Vision Engineer."
 
 # contact options (side nav bottom and about page)
 # the order of the items will be shown as here.
 # comment to remove any contact item
 contacts:
-  #- github: ""
-  #- email: ""
-  #- linkedin: ""
+  - github: "udit01"
+  - email: "uditjainiitd@gmail.com"
+  - linkedin: "https://www.linkedin.com/in/uditjainiitd/"
   #- twitter: ""
   #- mastodon: ""
   #- instagram: ""
@@ -90,4 +90,4 @@ google_site_verification: ""
 # - Click the "Send" button at the top right.
 # - Click the link icon from "Send via" list and copy the link.
 # - Then paste the link between double quotes.
-google_forms_contact_form_url: ""
+google_forms_contact_form_url: "https://docs.google.com/forms/d/e/1FAIpQLSeeRuxe6T3QH3XXvbs0QIGuLC47khBXb5sC9XQgc32vPHMu5w/viewform?usp=header"
