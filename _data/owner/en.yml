@@ -2,10 +2,10 @@
 # Owner's Personal Information
 ###########################################################
 # This is your brand name
-brand: "Computer Vision"
+brand: "Udit Jain"
 
 # text below the brand name
-brand_sub_text: "$site_sample"
+brand_sub_text: "Portfolio"
 
 # used for seo meta post author (if it's not defined in post)
 name: "Udit Jain"
@@ -13,13 +13,13 @@ name: "Udit Jain"
 # home page top header texts
 home:
   # you can also use $site_brand, $site_greetings, $site_welcome in line1 and line2 for replacing texts.
-  top_header_line1: "$site_welcome"
+  top_header_line1: "Udit Jain"
   # if commented, top header will be a single line
-  top_header_line2: "$site_brand"
+  top_header_line2: "Computer Science Engineer"
 
 # about page sub title
 about:
-  sub_title: "$site_sample"
+  sub_title: "Portfolio to showcase my projects and more."
 
 # if you don't want to add copyright year, comment or leave it blank.
 # the year during which the claimed copyright for the work was first asserted.
@@ -50,7 +50,7 @@ meta_common_description: "Portfolio and Resume of Udit Jain, Computer Vision Eng
 contacts:
   - github: "udit01"
   - email: "uditjainiitd@gmail.com"
-  - linkedin: "https://www.linkedin.com/in/uditjainiitd/"
+  - linkedin: "uditjainiitd"
   #- twitter: ""
   #- mastodon: ""
   #- instagram: ""
