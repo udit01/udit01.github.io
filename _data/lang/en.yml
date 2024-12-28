@@ -175,7 +175,7 @@ privacy-policy:
 constants:
   greetings: Hello
   welcome: Welcome
-  sample: Sample
+  sample: TestSample
 
 # for contact form
 contact_form:
