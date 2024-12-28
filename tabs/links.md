@@ -94,12 +94,19 @@ page_data:
       title: "Professor Shibata's Blog"
       url: "https://tom-shibata.hatenablog.com/entry/2018/06/16/073923"
       info: "Elderly Clothing Assistance BAXTER robot was displayed in the RoboMech 2018 and 2019 and also the iREX 2019 exhibition. Coverage on Japanese National Television."
-    # # programming
-    # - type: id_programming
-    #   title: "Stack OverFlow"
-    #   url: "https://stackoverflow.com/"
-    #   info: "Stack Overflow is a question and answer website for professional and enthusiastic programmers."
 
+
+# Software skills
+# Languages Java, C, C++, Assembly, Python, Ocaml, Matlab, VHDL, Prolog, Javascript, C#, UML, LaTex, R
+# Libraries Spacy, NTLK, OpenIE, StanfordIE, KlonPy, LibFUSE, SATsovler, MiniNet, OpenCV, OpenGL, Tensorflow,
+# Keras, PyTorch, Bash Scripting, Django, FogBus, Doxygen
+# Softwares QEMU, Arduino Programming, Linux, Vivado Design Suite , Xilinx ISE, FPGA programming, Unity 3D game
+# studio, Android Programming, Autodesk Inventor (CAD)
+# Udit Jain
+# Education
+# 2016–2020 Computer Science and Engineering, Indian Institute of Technology, Delhi, CGPA – 9.10 .
+# 2014–2016 Senior Secondary Education, St. Kabir Modern School, Delhi, Percentage – 94.2%.
+# Till 2014 Secondary Education, St. Lawrence Convent Senior Secondary School, Delhi, CGPA – 9.8 
     # jekyiiliquid
     - type: id_rr
       title: "Brandon's Blog"
