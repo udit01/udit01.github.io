@@ -1,22 +1,22 @@
 ---
 # multilingual page pair id, this must pair with translations of this page. (This name must be unique)
-lng_pair: id_Examples
-title: Examples
+lng_pair: id_inProcess
+title: Time
 
 # post specific
 # if not specified, .name will be used from _data/owner/[language].yml
-author: Mr. Green's Workshop
+author: Udit Jain
 # multiple category is not supported
-category: jekyll
+category: diary
 # multiple tag entries are possible
-tags: [jekyll, sample, example post]
+tags: [diary, presentation]
 # thumbnail image for post
 img: ":post_pic1.jpg"
 # disable comments on this page
 #comments_disable: true
 
 # publish date
-date: 2022-02-10 08:11:06 +0900
+date: 2024-12-28 08:11:06 +0900
 
 # seo
 # if not specified, date will be used.
@@ -41,45 +41,20 @@ date: 2022-02-10 08:11:06 +0900
 
 <!-- outline-start -->
 
-This is the blog section, here you write different posts/blogs
+Outline: Why does making your own take time?
 <!-- outline-end -->
 
-### Headings (centered)
-{:data-align="center"}
+<!-- ### Headings (centered)
+{:data-align="center"} -->
 
-# Heading 1
+## What exactly takes time?
 
-## Heading 2
-
-### Heading 3
-
-#### Heading 4
-
-##### Heading 5
-
-###### Heading 6
-
-***
-
-### Paragraphs
 
 #### Paragraph
 
-**William Shakespeare**, Testing shake 
-Let me not to the marriage of true minds
-Admit impediments. Love is not love
-Which alters when it alteration finds,
-Or bends with the remover to remove.
-O no, it is an ever-fixed mark
-That looks on tempests and is never shaken;
-It is the star to every wand'ring barque,
-Whose worth's unknown, although his height be taken.
-Love's not Time's fool, though rosy lips and cheeks
-Within his bending sickle's compass come;
-Love alters not with his brief hours and weeks,
-But bears it out even to the edge of doom.
-If this be error and upon me proved,
-I never writ, nor no man ever loved.
+*Filling* the contents as a `story`, so that it makes sense, and is _coherent_. 
+It's kind of what you put out into the world is the kind of person you see yourself as and the person you want to be and somewhere in that plane will be the actual you.
+
 
 #### Texts
 

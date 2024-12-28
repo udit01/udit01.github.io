@@ -12,6 +12,18 @@ page_data:
     back_color: "lightblue"
 
   category:
+    - title: "Computer Vision"
+      type: id_cv
+      color: "green"
+    - title: "Data Science"
+      type: id_ds
+      color: "blue"
+    - title: "Machine Learning"
+      type: id_ml
+      color: "red"
+    - title: "Software Development"
+      type: id_sd
+      color: "orange"
     - title: "Example"
       type: id_example
       color: "gray"
@@ -23,6 +35,37 @@ page_data:
       color: "#2FD0ED"
 
   list:
+    - type: id_cv
+      project_name: "Unbinding Bodies"
+      project_excerpt: "Interactive Art Exhibition"
+      img: ":project1_thumb.jpg"
+      img_title: "img title1"
+      date: "2024-10-26"
+      post: |
+        # Unbinding Bodes
+          **Unbinding Bodies** swiftly captures the fissures in the process where the human body, technology, consciousness, life, perception, and existence are mutually excessive and deficient. This fissure is understood as a transition from a closed to an open world, surpassing the self-contained characteristics of Western metaphysics.
+
+          Visitors to the exhibition will experience their own senses and perceptions oscillating between excess and lack as they themselves bind and separate from technology through the work <Extruded Body> (2024). They can also track the relational encounters of various heterogeneous subjects through the performance work <≈> (2024).  
+          
+          Main Artist: Hwia Kim 
+          
+          Website: [Unbinding Bodies](https://www.hwia.kim/unbinding-bodies)
+          
+          Hosted by: Ministry of Culture, Sports, and Tourism
+          
+          Organized by: Korea Arts Management Service, Art Korea Lab
+
+
+        # Technology
+        {:data-align="center"}
+
+        > I designed the end to end Computer Vision software for the exhibition. The software was used to track the faces of visitors and move the robot arms accordingly. Another algorithm was used to display what an AI sees when it looks at the humans. 
+        
+        Image1 
+        Image2
+        Image3
+        
+
     # example
     - type: id_example
       project_name: "Example Project"
@@ -31,7 +74,7 @@ page_data:
       img_title: "img title1"
       date: "2021-03-13"
       post: |
-        # Examples
+        # THIS IS A PROJECT PAGE 
 
         This is an example page to display markdown related styles for Mr. Green Jekyll Theme.
 
