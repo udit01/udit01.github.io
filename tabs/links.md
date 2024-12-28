@@ -48,13 +48,23 @@ page_data:
   category:
     - title: "Resume"
       type: id_resume
-      color: "blue"
-    - title: "Interesting stuff"
-      type: id_is
-      color: "gray"
-    - title: "Awards"
-      type: id_awards
+      color: "green"
+    - title: "Publications"
+      type: id_pub
       color: "#F4A273"
+    - title: "Press"
+      type: id_press
+      color: "#14A273"
+    - title: "Education"
+      type: id_edu
+      color: "orange"
+    - title: "Certifications"
+      type: id_cert
+      color: "blue"
+    - title: "Recommended Reads"
+      type: id_rr
+      color: "gray"
+
     # - title: "Programming"
     #   type: id_programming
     #   color: "#62b462"
@@ -63,13 +73,27 @@ page_data:
     - type: id_resume
       title: "Udit Jain Resume"
       url: "https://drive.google.com/file/d/1hp81IaoKNDYjjmG2tCerTp56EoJQgVad/view?usp=sharing"
-      info: "This is my 1 page Resume as of 2024."
+      info: "This is my brief Resume as of 2024."
     
-    - type: id_awards
-      title: "Awards and Scholastic Achievements"
-      url: "https://drive.google.com/file/d/1hp81IaoKNDYjjmG2tCerTp56EoJQgVad/view?usp=sharing"
-      info: "This is my 1 page Resume as of 2024."
+    - type: id_pub
+      title: "ArXiv"
+      url: "https://arxiv.org/abs/1910.01642"
+      info: "APEX: Adaptive Ext4 File System for Enhanced Data Recoverability in Edge Devices. Paper co-authored and published in: Proceedings of the 11th IEEE International Conference on Cloud Computing, Sydney, Australia, 2019"
     
+    - type: id_pub
+      title: "ArXiv"
+      url: "https://arxiv.org/abs/1911.01941"
+      info: "Transformative effects of IoT, Blockchain and Artificial Intelligence on cloud computing: Evolution,vision, trends and open challenges. Paper co-authored and published in: Distributed, Parallel, and Cluster Computing (cs.DC) 2019"
+    
+    - type: id_pub
+      title: "Two color Disjunctive Rado Number "
+      url: ""
+      info: "(Under Review) Two color Disjunctive Rado Number for system of linear equations. Developed the algorithm for coloring equations with numbers to solve the system of equations."
+    
+    - type: id_press
+      title: "Professor Shibata's Blog"
+      url: "https://tom-shibata.hatenablog.com/entry/2018/06/16/073923"
+      info: "Elderly Clothing Assistance BAXTER robot was displayed in the RoboMech 2018 and 2019 and also the iREX 2019 exhibition. Coverage on Japanese National Television."
     # # programming
     # - type: id_programming
     #   title: "Stack OverFlow"
@@ -77,7 +101,7 @@ page_data:
     #   info: "Stack Overflow is a question and answer website for professional and enthusiastic programmers."
 
     # jekyiiliquid
-    - type: id_is
+    - type: id_rr
       title: "Brandon's Blog"
       url: "https://www.brandonrohrer.com/blog.html"
       info: "Interesting read across a variety of subjects."

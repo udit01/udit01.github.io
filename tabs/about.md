@@ -49,3 +49,5 @@ Currently I'm working on Samsung's Refrigerator and adding new features to those
 Outside work, I like building fun projects, kaggle, reading books, working out and chess.
 
 Feel free to hit me up with any of your project ideas we could work on together. 
+
+Technical Skills: 

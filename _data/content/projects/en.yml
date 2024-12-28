@@ -12,30 +12,38 @@ page_data:
     back_color: "lightblue"
 
   category:
-    - title: "Computer Vision"
-      type: id_cv
+    - title: "Samsung"
+      type: id_samsung
       color: "green"
-    - title: "Data Science"
-      type: id_ds
-      color: "blue"
-    - title: "Machine Learning"
-      type: id_ml
-      color: "red"
-    - title: "Software Development"
-      type: id_sd
-      color: "orange"
-    - title: "Example"
-      type: id_example
+    - title: "Human Computer Interaction"
+      type: id_hci
+      color: "light-blue"
+    # - title: "Machine Learning"
+    #   type: id_ml
+    #   color: "red"
+    # - title: "Software Development"
+    #   type: id_sd
+    #   color: "orange"
+
+    - title: "Awards"
+      type: id_awards
+      color: "yellow"
+    - title: "Past Projects"
+      type: id_past_projects
       color: "gray"
-    - title: "Picture"
-      type: id_picture
-      color: "#62b462"
-    - title: "Quote"
-      type: id_quote
-      color: "#2FD0ED"
+    # - title: "Example"
+    #   type: id_example
+    #   color: "gray"
+    # - title: "Picture"
+    #   type: id_picture
+    #   color: "#62b462"
+    # - title: "Quote"
+    #   type: id_quote
+    #   color: "#2FD0ED"
 
   list:
-    - type: id_cv
+  
+    - type: id_hci
       project_name: "Unbinding Bodies"
       project_excerpt: "Interactive Art Exhibition"
       img: ":project1_thumb.jpg"
@@ -229,49 +237,387 @@ page_data:
 
         ![Image](:project2_thumb.jpg)
 
-    # quote
-    - type: id_quote
-      project_name: "Example Project"
-      project_excerpt: "William Shakespeare"
-      #img: ":project1_thumb.jpg"
-      #img_title: "img title3"
-      date: "2021-05-27"
-      post: |
-        Let me not to the marriage of true minds
-        Admit impediments. Love is not love
-        Which alters when it alteration finds,
-        Or bends with the remover to remove.
-        O no, it is an ever-fixed mark
-        That looks on tempests and is never shaken;
-        It is the star to every wand'ring barque,
-        Whose worth's unknown, although his height be taken.
-        Love's not Time's fool, though rosy lips and cheeks
-        Within his bending sickle's compass come;
-        Love alters not with his brief hours and weeks,
-        But bears it out even to the edge of doom.
-        If this be error and upon me proved,
-        I never writ, nor no man ever loved.
-    - type: id_quote
-      project_name: "Example Project"
-      project_excerpt: "Albert Einstein"
+
+    - type: id_samsung
+      project_name: "Samsung Digital Appliances AI"
+      project_excerpt: "AI models for Samsung’s next-gen smart appliances."
       img: ":project2_thumb.jpg"
       img_title: "img title4"
-      date: "2021-06-08"
+      date: "2024-12-28"
       post: |
-        Two things are infinite: the universe and human stupidity; and I'm not sure about the universe.
-    - type: id_quote
-      project_name: "Example Project"
-      project_excerpt: "Mae West"
-      img: ":project1_thumb.jpg"
-      img_title: "img title5"
-      date: "2021-08-20"
+        Samsung Research  Seoul, South Korea
+            Computer Vision Engineer, Next Generation Digital Appliances Research Division	     January 2023 - Current
+          •	Developed and deployed a vision-based AI model for millions of Samsung’s next-gen smart refrigerators using TensorFlow, PyTorch, and OpenCV, enhancing user experience by automating food identification and inventory management.
+          •	Worked on Object detection, Instance Detection, Feature Matching, Classification , Temporal trajectory detection. Position detection, Gaze prediction, Human activity recognition, Label detection, transformation and matching. 
+          •	Addressed Out-Of-Distribution (OOD) detection issues and improved model accuracy by 4% through openset loss, contrastive loss, & ensemble methods, significantly reducing misclassifications and improving reliability in diverse conditions. 
+          •	Optimized AI model for NPU deployment, achieving performance metrics of under 40MB size, below 70ms latency, and over 90% accuracy, ensuring seamless integration into refrigerator systems without compromising on performance.
+          •	Samsung University (April 2024) Served as a Crew Member in the Samsung 2024 Spring Global New Comers program, delivering engaging lectures and panel talks that facilitated learning and professional development among 32 international participants. Led intensive networking and team-building programs,  across Samsung's global offices, SDS, DX, Cheil, E&A¬
+          •	Currently making  models for Samsung’s Smart Refrigerator, Washing-machine, Wine-cellar, & Air-Dresser, Robot Cleaner. 
+
+
+    - type: id_samsung
+      project_name: "Samsung Health Big Data Analysis"
+      project_excerpt: "Analyzing life log data of 200M+ users around the world."
+      img: ":project2_thumb.jpg"
+      img_title: "img title4"
+      date: "2022-01-28"
       post: |
-        You only live once, but if you do it right, once is enough.
-    - type: id_quote
-      project_name: "Example Project"
-      project_excerpt: "Mahatma Gandhi "
+          Data Science Engineer, Data Intelligence Lab. October 2020 - January 2022
+              •	Conducted extensive data analysis on a 200 million user database within Samsung Health, modeling weight, BMI, sleep, exercise, and step habits to unveil critical health trends and behaviors using AWS EMR, Athena, Spark, and Glue, BigQuery 
+              •	Performed decryption, pipelining, and data analysis on 300TB of anonymized health data stored on AWS S3, analyzing trends by demographics and external factors like COVID-19 & lockdowns, leading to insights into patterns & correlations.
+            •	Established causal relationships between physical and mental health markers, using statistical tools and time series forecasting to lay the groundwork for personalized health interventions on users’ sleep, exercise, steps, country, age, screen time.
+              •	Proficiencies: SQL, AWS EMR, Glue, S3, Athena, Spark, Hadoop, AWS CLI, IAM, Google BigQuery, Cloud Storage, PySpark, Visualization tools (Matlab, Matplotlib, Seaborn), Statistical significance analysis, Time series forecasting, A/B testing, Explainable Models, Deep models for Time series analysis. 
+
+
+    - type: id_intern
+      project_name: "Internships"
+      project_excerpt: "These will be split into different posts"
+      img: ":project2_thumb.jpg"
+      img_title: "img title4"
+      date: "2021-01-29"
+      post: |
+            ### **May - July 2019**  
+            **Research Intern**  
+            *Samsung Research, Data Analytics Lab, Dr. Jaehun Lee, Seoul, South Korea*  
+            - Extracted semantic information from Business-to-Consumer (B2C) email data across various verticals.  
+            - Analyzed and replicated Gmail’s state-of-the-art Juicer system under constraints of data and generalizability.  
+            - Designed architecture to process diverse languages and email formats, handling both tabular data and informal text.  
+            - Utilized tools such as SpaCy, KlonPY, NLTK, OpenIE, and StanfordIE to develop an adaptive model for multiple segments.  
+            - Developed custom post-processing heuristics to enhance field extraction and semantic analysis tailored to specific verticals.
+
+            ---
+
+            ### **May - July 2018**  
+            **Research Intern**  
+            *Shibata Labs, Prof. Tomohiro Shibata, Kyutech University, Fukuoka, Japan*  
+            - Enhanced cloth segmentation capabilities by augmenting the state-of-the-art Mask R-CNN model with a custom dataset.  
+            - Designed an algorithm to determine optimal picking points from Regions of Interest (ROI) using Kinect point cloud data (PCD) for Baxter robotic arm manipulation.  
+            - Built a modular software interface using the QT library to integrate Kinect data streams, robotic motion control, ROI detection, and segmentation results into a seamless workflow.  
+            - Generated an extended labeled dataset using heuristic-based algorithms to improve the training of the deep learning model.
+
+
+    - type: id_past_projects
+      project_name: "University Projects"
+      project_excerpt: "Additional Miscellaneous projects done during university in brief."
+      img: ":project2_thumb.jpg"
+      img_title: "img title4"
+      date: "2020-01-29"
+      post: |
+            # Research and Development Projects
+
+            ### July 2018 – April 2019  
+            ** Recovery-Aware File Allocation APEX, Prof. Rajkumar Buyya, University of Melbourne, Australia.**  
+            *Supervisor: Prof. Rajkumar Buyya, University of Melbourne, Australia*  
+            - Designed and implemented a FUSE-based file system with custom File I/O operations for optimized data allocation and recovery.  
+            - Developed a Q-learning-based reinforcement learning module to simulate file system processes on disks.  
+            - Focused on integrity, space efficiency, and computational constraints for deployment on edge computing devices.  
+
+            ### January – April 2019  
+            **Operating Systems Design**  
+            *Supervisor: Prof. S. R. Sarangi, IIT Delhi, India*  
+            - Implemented inter-process communication, multicast, and distributed algorithms on the XV6 virtual OS.  
+            - Deployed virtualized containers with features such as syscall independence, resource isolation, and memory paging.  
+            - Developed a parallel implementation of Jacobi’s function for Maekawa's mutual exclusion algorithm, integrating kernel modifications for unicast and multicast system calls.  
+
+            ### January – April 2019  
+            **Kernel Hacking FreeBSD**  
+            *Supervisor: Prof. S. R. Sarangi, IIT Delhi, India*  
+            - Optimized page replacement using Minimal Counting Bloom filters, reducing memory overhead and page laundry times.  
+            - Conducted a comparative analysis of Linux’s Completely Fair Scheduler (CFS) and FreeBSD’s ULE scheduler using benchmarks such as Phoronix and Sysbench.  
+
+            ### July – November 2019  
+            **AlphaGo Zero – Deep Reinforcement Learning**  
+            *Supervisor: Prof. Parag Singla, IIT Delhi, India*  
+            - Built AlphaGo Zero from scratch using deep reinforcement learning and Monte Carlo Tree Search, enabling competitive performance in tournaments.  
+            - Developed a trading card game AI bot, accounting for probabilistic shuffling, card strengths, and strategic gameplay across varying difficulty levels.  
+
+            ### November 2017 – May 2018  
+            **NIR Skin Detection**  
+            *Supervisor: Prof. Prathosh AP, IIT Delhi, India*  
+            - Developed a model for skin detection and segmentation using near-infrared images, training on manually labeled datasets.  
+            - Integrated this model into IoT systems for applications in heart rate and biological signal detection.  
+
+            ### December 2019 – Present  
+            **Disjunctive Rado Numbers**  
+            *Supervisor: Prof. Amitabha Tripathi, IIT Delhi, India*  
+            - Investigated bounds for Disjunctive Rado numbers across varying systems of equations.  
+            - Designed algorithms to traverse exponential search spaces, leveraging mathematical constraints and memory optimization techniques.  
+
+            ---
+
+            # Software Development Projects
+
+            ### January – April 2018  
+            **Software Development, Development Club**  
+            - Developed a universal anonymized peer review system with Django and modified RSA encryption.  
+            - Built an internal file-sharing platform with peer-to-peer WebRTC backend for secure file exchanges.  
+
+            ### January – April 2019  
+            **Machine Learning Algorithms**  
+            *Supervisor: Prof. Parag Singla, IIT Delhi, India*  
+            - Implemented machine learning algorithms, including weighted regression, Gaussian discriminant analysis, SVMs, and decision trees.  
+            - Applied deep reinforcement learning techniques to the ATARI game Breakout.  
+
+            ### August – November 2018  
+            **Artificial Intelligence Principles**  
+            *Supervisor: Prof. Mausam, IIT Delhi, India*  
+            - Developed advanced game-playing bots for Yinsh and Blackjack using reinforcement learning and probabilistic Markov Chains.  
+
+            ### August – November 2018  
+            **Digital Image Analysis**  
+            *Supervisor: Prof. P. Kalra, IIT Delhi, India*  
+            - Implemented Floyd-Steinberg dithering and image in-painting techniques for enhanced visualizations and image transformations.  
+
+            ### February – April 2018  
+            **Computer Architecture and System Design**  
+            *Supervisor: Prof. Anshul Kumar, IIT Delhi, India*  
+            - Designed a two-player game in ARM Assembly language with positional predictions.  
+            - Implemented and tested a pipelined processor with ARM ISA on Basys 3 FPGA.  
+
+            ### January – April 2018  
+            **Programming Languages**  
+            *Supervisor: Prof. Sanjeeva Prasad, IIT Delhi, India*  
+            - Developed Krivine and SECD machines for low-level languages, supporting both lazy and eager operational semantics.  
+            - Created a Prolog interpreter, including Lexer, Parser, and Horn Clause Solver.  
+
+            ### **Jan 2018**  
+            **Analytic Chat Bot**  
+            *Microsoft CodeFunDo, IIT Delhi*  
+            - Built a chatbot for retrieving related articles, news, and summaries. Integrated OCR for extracting text from images. [GitHub](#).
+
+            ---
+
+            ### **June - July 2017**  
+            **Machine Learning Projects**  
+            - **Recommendation System**: Predicted user preferences using collaborative filtering.  
+            - **Spam Classifier**: Built a spam detection model using SVM and classifiers.  
+            - **Digit Recognition**: Recognized handwritten digits using deep neural networks.
+
+            ---
+
+            ### **June - July 2017**  
+            **Robotics and Automation Projects**  
+            *Prof. P.V.M. Rao, Robotics Club, IIT Delhi*  
+            - **Smart Switch Board**: Created a Bluetooth-enabled home automation system.  
+            - **Bomb Disposal Robot**: Designed a functional robot for obstacle evasion and object retrieval.
+
+    - type: id_past_projects
+      project_name: "Past Extra Circulars"
+      project_excerpt: "Extra Circulars done during university and before."
+      img: ":project2_thumb.jpg"
+      img_title: "img title4"
+      date: "2020-01-20"
+      post: |
+          ### **Extra-Curricular Activities**  
+
+          ---
+
+          ### **Feb - Apr 2019**  
+          **Literary Analysis for IFE Understanding**  
+          *Prof. Rukmini Bhaya Nair, IIT-Delhi, New Delhi*  
+          - Conducted an in-depth study of *Indian Fiction in English* by exploring various classic literary works and novels.  
+          - Analyzed the essence of stories by award-winning literary authors, appreciating the subtle distinctions between fiction and reality-based narratives.  
+
+          ---
+
+          ### **Jan 2017 - Feb 2019**  
+          **Technical Development Executive**  
+          *Development Club, IIT-Delhi, New Delhi*  
+          - Served as a Software and Web Developer in the technical team.  
+          - Designed and developed projects including the **File Send Service**, a review system, and miscellaneous institute websites.  
+          - Contributed to the [Development Club Website](https://www.example.com).  
+
+          ---
+
+          ### **Aug 2017 - Present**  
+          **Microsoft Student Partner (MSP)**  
+          *IIT-Delhi, New Delhi, India*  
+          - Organized lectures, hackathons, and hands-on workshops on various technical topics.  
+          - Represented Microsoft at IIT-Delhi to promote technical education and engagement.  
+
+          ---
+
+          ### **April - Sept 2017**  
+          **Activity Head**  
+          *Rendezvous 2017, Technical Team, IIT-Delhi*  
+          - Contributed as a Web Developer for the technical team of Rendezvous, IIT-Delhi’s cultural festival.  
+          - Developed back-end and front-end features for the multi-platform Rendezvous website using technologies such as Node.js, AngularJS, DynamoDB, Bootstrap, and Django.  
+          - Supported the [Rendezvous Website](https://www.example.com).  
+
+          ---
+
+          ### **May - July 2017**  
+          **Summer Intern**  
+          *Anhad Music, Hauz-Khas, New Delhi*  
+          - Developed a platform to connect artists and audiences, enabling them to showcase their skills and get hired by event managers.  
+          - Built the platform’s back-end systems using Python technologies and the Django framework.
+
+
+    # - type: id_past_projects
+    #   project_name: "University Projects"
+    #   project_excerpt: "Additional Miscellaneous projects done during university."
+    #   img: ":project2_thumb.jpg"
+    #   img_title: "img title4"
+    #   date: "2020-01-28"
+    #   post: |
+
+    #           July 2018 -
+    #           Apr 2019
+    #           Recovery-Aware File Allocation APEX, Prof. Rajkumar Buyya, University of Melbourne, Australia.
+    #           { Modeled and implemented a FUSE based file-system with custom File I/O ops to allocate and recover data optimally.
+    #           { Designed a Q-learning based reinforcement learning module to simulate File system processes on Disk. Github.
+    #           { Implemented on Edge computing devices keeping in mind integrity, space efficiency and computation power on device.
+    #           Jan-Apr
+    #           2019
+    #           Operating Systems Design, Prof. S. R. Sarangi, IIT - Delhi, Delhi, India.
+    #           { Implemented inter-process communication, multi-cast and distributed algorithms on the XV6 virtual OS.
+    #           { Deployed virtualized containers with various design objectives like isolation, sys-call independencey, virtual addressing
+    #           of methods, paging of memory addresses and independent file system.
+    #           { Designed Container manager to keep track of system and user based permissions for different applications, their
+    #           scheduling on different cores, resource isolation and CRUD handling for the containers.
+    #           { Developed a parallel implementation of Jacobi function for computation of Maekawa‘s mutual exclusion algorithm for
+    #           xv6. The implementation required updating kernel to allow system calls for unicast, multicast and barriers.
+    #           Jan-Apr
+    #           2019
+    #           Kernel Hacking FreeBSD, Prof. S. R. Sarangi, IIT - Delhi, Delhi, India.
+    #           { Improving Page Replacement: Reduced memory space overheads and page laundry time overheads, used Minimal
+    #           Counting Bloom filter to maintain the usage frequencies of pages and select the optimal page for replacement.
+    #           Compared and benchmarked the TinyLFU performance metrics over SPEC. Github Repository.
+    #           { Quantitative Comparison of schedulers : Bench-marked Linux’s Completely Fair Scheduler(CFS) and FreeBSD’s ULE
+    #           schedulers and analyzed metrics to contrast them in terms of Fairness, Starvation, Load Balancing etc. Measured on
+    #           Standard benchmarks: Phoronix (single and multi-core), Sysbench and Multi-Application tests. Github Repository.
+    #             July-Nov
+    #           2019  
+    #           Alpha Go Zero - Deep Reinforcement Learning, Prof. Parag Singla, IIT-Delhi, Delhi, India.
+    #           { Developed AlphaGo Zero from scratch, training against itself and using Deep Reinforcement Learning and Monte
+    #           Carlo Tree playing strategies to make a bot that performs in a tournament to compete against other players.
+    #           { Developed an AI bot to play against human in a Strategy Trading Card game, Project CHAOS at Para-Cosmic Game
+    #           Development studios. Took into account the different bot difficulty levels, the probabilistic shuffling and drawing of
+    #           cards, and balancing the card and magic strength(turn limit) among different decks and types.
+    #           Nov-May
+    #           2017
+    #           NIR skin detection, Prof. Prathosh AP, Electrical Department, IIT-Delhi.
+    #           Skin detection and segmentation form Near Infrared images. Built upon state of the art models by training them on
+    #           manually collected and labelled data. Visualized model’s learning and compared with inference from colourized version.
+    #           Used as a sub-module in various IoT systems. Huge application in the field of heart rate and biological signals detection
+    #           in the dark, through phone’s IR scanner and through CCTV cameras. Research paper in the pipeline.
+    #           Dec-Current
+    #           2019
+    #           Disjunctive Rado Numbers, Prof. Amitabha Tripathi, Mathematics Department, IIT-Delhi.
+    #           Finding the lower and upper bounds of Disjunctive Rado numbers for different system of equations with varying coefficients,
+    #           constraints and number of variables. Developed algorithm to traverse the search space based on mathematical constraints
+    #           and heuristics. Also had to transform equation space and manage memory explosions as search space increases
+    #           exponentially with R(Rado number). Research paper in review.
+    #           Jan-Apr
+    #           2018
+    #           Software Development, Development Club, IIT-Delhi, India.
+    #           { Review System — Universal Anonymized Peer review system with rating and review for each member. Used Django
+    #           web-system and modified RSA encryption algorithm which allowed users to give anonymous and editable ratings and
+    #           comments to each other.
+    #           { File-send — Internal Online File-Sharing system for IIT-Delhi. Connected two people to perform handshake and
+    #           exchange identification meta-data through server and WebRTC backend for peer to peer socket communication and
+    #           exchange filestream between the connected people.
+    #           { In the above projects, completed the project life cycle, including Modeling, Functional specifications, Class diagrams,
+    #           Documentation(Github Wiki), Software implementation and Testing modules. Hosted on Github DevClub IITD org.
+    #           Jan-Apr
+    #           2019
+    #           Machine Learning Algorithms, Prof. Parag Singla, IIT - Delhi, Delhi, India.
+    #           { Implemented various machine learning algorithms from scratch without any library support and then compared them
+    #           with standard libraries and bench-marked them on different data-sets.
+    #           { Algorithms analyzed: Weighted linear & logistic regression, Gaussian discriminant analysis, Naive Bayes and Support
+    #           Vector Machines on YELP review data, Decision Trees and Deep Neural networks.
+    #           { Implemented Deep Reinforcement Learning algorithms to the ATARI game Breakout.
+    #           Jan-Apr
+    #           2019
+    #           Paralle and Distributed Computing, Prof. Subodh Sharma, IIT - Delhi, Delhi, India.
+    #           { Implemented distributed versions of algorithms : K Nearest Neighbours, Singular Matrix Decomposition, Principal
+    #           Component Analysis, Jacobi’s algorithm. Analyzed results on varying number of cores, threads and others params.
+    #           { Used libraries: Pthread, OpenMP, and CUDA for GPU, and the Message Passing Interface (MPI standard) .
+    #           Aug-Nov
+    #           2018
+    #           Artifical Intelligence Principles, Prof. Mausam, IIT - Delhi, Delhi, India.
+    #           { Yinsh Player — An advanced game playing robot built to play Yinsh board game. Different bots have been developed
+    #           using A3C Deep learning model. Optimization techniques like branch prediction, victory heuristic , dynamic depth
+    #           cutoff etc. The bot self learns the optimal strategy using Monte Carlo simulation.
+    #           { Black-Jack Player — Developed a bot to model probabilistic Markov-Chains and play blackjack strategically.
+    #           Aug-Nov
+    #           2018
+    #           Digital Image Analysis, Prof. P.Kalra, IIT - Delhi, Delhi, India.
+    #           { Implemented Floyd-Stienberg algorithm, post-quantization for error propagation and used xDOG for enhancement.
+    #           { Face Morphing and Swapping and Image Filtering algorithms to swap faces and add filters on Faces (Snapchat style).
+    #           { Wrote module for image in-painting based on dynamic propagation and did Image Analogies in form of Pattern
+    #           Extraction from image and reconstructing a new image
+    #           Jan-Apr
+    #           2018
+    #           Design Practices, Prof. Shubhashish Banerjee, IIT - Delhi, India.
+    #           { Designed software for 3D modeling and visualization, orthographic to isometric views reconstruction and reverse.
+    #           { Modeled and simulated flocking patterns for bird migration dynamics. Implemented multi-threading and parallelism.
+    #           { Project life cycle completed, including Mathematical Modeling, UML Diagrams, functional specifications, class
+    #           diagrams, documentation(Doxygen), software implementation, testing modules and final report.
+    #           Sept 2018 Computer Networking Systems, Prof. B.N.Jain, IIT - Delhi, Delhi, India.
+    #           Implemented and simulated the Go-Back-N ARQ protocol, an instance of automatic repeat-request protocol. Simulated
+    #           on different network configurations by dynamically running & configuring multiple senders, receivers on parallel threads.
+    #           Feb-Apr
+    #           2018
+    #           Computer Architecture and System Design, Prof. Anshul Kumar, Digital Hardware Design Lab, IIT -
+    #           Delhi, Delhi, India.
+    #           { Game in ARM ISA — Developed 2 player game Reversi in Assembly language, with positional predictions.
+    #           { Pipelined Processor — Implemented and tested processor and BUS modules with core ARM Instruction set architecture
+    #           on Basys 3 FPGA board.
+    #           Mar-Apr
+    #           2018
+    #           Programming Languages, Prof. Sanjeeva Prasad, IIT - Delhi, Delhi, India.
+    #           { Designed and implemented Krivine & SECD machines for low level languages with lazy & eager operational semantics.
+    #           { Prolog Interpreter — Implemented and tested complete end to end prolog interpreter including Lexer, Parser and Horn
+    #           clause solver. Made test benches to test the individual modules. Hosted on Github profile.
+    #           Jan 2018 Analytic Chat Bot, Microsoft CodeFunDo, General Computing lab, IIT-Delhi.
+    #           Developed a chat bot which analyzes text and gives related articles, news, recommendations, scientific papers and
+    #           summaries. It can also take out the paragraphs from images by Vision. Github Repsitory.
+    #           June-July
+    #           2017
+    #           Machine Learning Projects.
+    #           { Recommendation System — predicts user’s choices and responses using collaborative filtering model.
+    #           { Spam Classifier — Worked on the Spam detection problem by using various features of the Email being fed to to the
+    #           SVM Kernel and other classifier models.
+    #           { Digit Recognition — Recognized hand-written digits using deep neural network, images convoluted and digit parts
+    #           localized and recognized by the neural network.
+    #           June-July
+    #           2017
+    #           Robotics and Automation Projects, Prof. PVM Rao, Robotics Club, Workshop.
+    #           { Smart Switch Board for Home Automation — Made a Switch Board which works through Blue-tooth signals from
+    #           Android Devices to switch Lights,Fans,Sockets etc. Demo Video
+    #           { Bomb Disposal Robot — Created a functional bot for IIT-Kharagpur Tech-fest Robotics Competition, Bomb Disposal.
+    #           The robot had to evade obstacles and pick objects(bombs) on the course and drop them to a safe location fast. 
+
+
+    - type: id_awards
+      project_name: "Awards and Scholastic Achievements"
+      project_excerpt: "List of Awards"
       img: ":project2_thumb.jpg"
       img_title: "img title6"
-      date: "2021-12-20"
+      date: ""
       post: |
-        Be the change that you wish to see in the world.
+        #### Awards and Scholastic Achievements
+
+
+
+        {:data-align="center"}
+        | Year | Description |   
+        | :------: | :--------------- | 
+        | 2024 | Certificate of Excellence, Seoul National University Level 3, 4 Korean| 
+        | 2023 | Certificate of Excellence, Seoul National University Level 3, 4 Korean |
+        | 2023 | Data Science Level 2 , Samsung Electronics |
+        | 2022 | Samsung Best Paper Award , Samsung Electronics |
+        | 2021 | Professional Certification , Samsung Electronics |
+        | 2021 | Professional Certification , Samsung Electronics |
+        | 2019  | Awarded the S.C Mehrotra & B.N Bhardwaj Awards with scholarship at IIT-Delhi out of 10K students | 
+        | 2018  | Awarded the Japan Student Services Org JASSO grant and scholarship for research and training in Japan | 
+        | 2017-18  | Institute Merit Award: Among Top 7% of the entire batch of students in both first and second semesters. | 
+        | 2016  | JEE Advanced - Secured AIR 81 among 200k students qualified to take it from 1.7 million students.| 
+        | 2016  | JEE Mains – All India Rank 390 among 1.7 million students.| 
+        | 2016  | InPHO,InAO - Selected in Top 35 students from all over India. Awarded Gold Medal and Merit Certificate for excellence in physics at HBCSE-Bombay.| 
+        | 2015  | KVPY – Secured All India Rank 3 among 500k students in KVPY 2016 conducted by the IISc Bangalore and was awarded Fellowship in the Science Stream.| 
+        | 2015  | Secured Top-1% National ranking in NSEP, NSEC and NSEA and qualified for INPHO(Physics),INCHO(Chemistry) and INAO(Astronomy), the Indian Science Olympiads.| 
+         
+        {:data-align="center"}
+

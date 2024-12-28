@@ -42,3 +42,4 @@ img: ":home-heading.jpg"
 {%- include util/auto-content-generator.liquid -%}
 
 Welcome to my website! My resume is in the Links tab
+It is a work in progress.
