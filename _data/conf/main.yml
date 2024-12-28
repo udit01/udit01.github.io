@@ -190,12 +190,12 @@ side_nav_close_limit: 767px
 side_and_top_nav_buttons:
   - home:
     icon: "fa fa-home"
-  - post-list:
-    icon: "fa fa-pencil-square-o"
-  - archives:
-    icon: "fa fa-archive"
   - projects:
     icon: "fa fa-cog"
+  - post-list:
+    icon: "fa fa-pencil-square-o"
+  # - archives:
+  #   icon: "fa fa-archive"
   - links:
     icon: "fa fa-link"
   - about:
