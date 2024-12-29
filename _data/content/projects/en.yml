@@ -256,7 +256,7 @@ page_data:
 
 
     - type: id_samsung
-      project_name: "Samsung Health Big Data Analysis"
+      project_name: "Samsung Health Data Analysis"
       project_excerpt: "Analyzing life log data of 200M+ users around the world."
       img: ":project2_thumb.jpg"
       img_title: "img title4"
