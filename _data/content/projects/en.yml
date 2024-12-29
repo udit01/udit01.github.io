@@ -336,7 +336,7 @@ page_data:
     - type: id_samsung
       project_name: "Samsung Health Data Analysis"
       project_excerpt: "Analyzing life log data of 200M+ users around the world."
-      img: ":sh1.webp"
+      img: ":samsung/sh1.webp"
       img_title: "Samsung Health"
       date: "2022-01-28"
       post: |
