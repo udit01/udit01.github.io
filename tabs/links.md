@@ -41,8 +41,8 @@ lng_pair: id_links
 ###########################################################
 page_data:
   main:
-    header: "Links"
-    info: "Your Links page description."
+    header: "Publications"
+    info: "Including Education, Certifications & Miscellaneous Information."
 
   # To change order of the Categories, simply change order. (you don't need to change list order.)
   category:
