@@ -241,18 +241,45 @@ page_data:
     - type: id_samsung
       project_name: "Samsung Digital Appliances AI"
       project_excerpt: "AI models for Samsung’s next-gen smart appliances."
-      img: ":project2_thumb.jpg"
+      img: ":samsung/fam_hub_cam_above_square.jpg"
       img_title: "img title4"
       date: "2024-12-28"
       post: |
-        Samsung Research  Seoul, South Korea
-            Computer Vision Engineer, Next Generation Digital Appliances Research Division	     January 2023 - Current
-          •	Developed and deployed a vision-based AI model for millions of Samsung’s next-gen smart refrigerators using TensorFlow, PyTorch, and OpenCV, enhancing user experience by automating food identification and inventory management.
-          •	Worked on Object detection, Instance Detection, Feature Matching, Classification , Temporal trajectory detection. Position detection, Gaze prediction, Human activity recognition, Label detection, transformation and matching. 
-          •	Addressed Out-Of-Distribution (OOD) detection issues and improved model accuracy by 4% through openset loss, contrastive loss, & ensemble methods, significantly reducing misclassifications and improving reliability in diverse conditions. 
-          •	Optimized AI model for NPU deployment, achieving performance metrics of under 40MB size, below 70ms latency, and over 90% accuracy, ensuring seamless integration into refrigerator systems without compromising on performance.
-          •	Samsung University (April 2024) Served as a Crew Member in the Samsung 2024 Spring Global New Comers program, delivering engaging lectures and panel talks that facilitated learning and professional development among 32 international participants. Led intensive networking and team-building programs,  across Samsung's global offices, SDS, DX, Cheil, E&A¬
-          •	Currently making  models for Samsung’s Smart Refrigerator, Washing-machine, Wine-cellar, & Air-Dresser, Robot Cleaner. 
+            # Samsung Research  
+            **Seoul, South Korea**  
+            **Computer Vision Engineer, Next Generation Digital Appliances Research Division**  
+            *2023 - Current*  
+
+            ### Key Achievements:
+            - **AI Model Development**:  
+              Developed and deployed a vision-based AI model for millions of Samsung’s next-gen smart refrigerators using **TensorFlow**, **PyTorch**, and **OpenCV**, enhancing user experience by automating food identification and inventory management.
+              
+            - **Core Expertise**:  
+              Worked on:  
+              - Object detection  
+              - Instance detection  
+              - Feature matching  
+              - Classification  
+              - Temporal trajectory detection  
+              - Position detection  
+              - Gaze prediction  
+              - Human activity recognition  
+              - Label detection, transformation, and matching  
+
+            - **Out-Of-Distribution (OOD) Detection**:  
+              Addressed OOD detection issues and improved model accuracy by 4% through the use of **openset loss**, **contrastive loss**, and **ensemble methods**, significantly reducing misclassifications and improving reliability in diverse conditions.
+
+            - **NPU Optimization**:  
+              Optimized AI models for NPU deployment, achieving performance metrics of:  
+              - **<40MB size**  
+              - **<70ms latency**  
+              - **>90% accuracy**  
+              Ensured seamless integration into refrigerator systems without compromising performance.
+
+  
+
+            ![Samsung Smart Appliances](:samsung/bespoke_all.jpg)  
+            ![Samsung Smart Refrigerator](:samsung/ref_pannel.jpg)  
 
 
     - type: id_samsung
@@ -260,13 +287,53 @@ page_data:
       project_excerpt: "Analyzing life log data of 200M+ users around the world."
       img: ":project2_thumb.jpg"
       img_title: "img title4"
+      date: "2023-01-28"
+      post: |
+        # Software Engineer, Data Service Lab  
+        *January 2022 - January 2023*
+
+        ### Key Achievements:
+        - **Samsung Health Research Application Deployment**:  
+          Deployed the **Samsung Health Research Application**, facilitating participant life-log data analysis at **Samsung Medical Center** and other hospitals. Designed the end-to-end system architecture using **Clean Architecture** to enhance scalability and maintainability.
+
+        - **Client-Side and Server-Side Development**:  
+          - Developed the **client-side application** using **Kotlin** and the **Android Framework** to optimize user experience.  
+          - Engineered the **server-side infrastructure** using **Node.js** to ensure secure and efficient data handling and integration.
+
+        - **Data Visualization Dashboard**:  
+          Implemented a **data visualization dashboard** using **Apache Superset**, allowing for easy interaction and insight derivation from complex data. Collaborated closely with medical researchers to streamline digital solutions for medical research processes.
+
+      
+    - type: id_samsung
+      project_name: "Samsung Health Data Analysis"
+      project_excerpt: "Analyzing life log data of 200M+ users around the world."
+      img: ":project2_thumb.jpg"
+      img_title: "img title4"
       date: "2022-01-28"
       post: |
-          Data Science Engineer, Data Intelligence Lab. October 2020 - January 2022
-              •	Conducted extensive data analysis on a 200 million user database within Samsung Health, modeling weight, BMI, sleep, exercise, and step habits to unveil critical health trends and behaviors using AWS EMR, Athena, Spark, and Glue, BigQuery 
-              •	Performed decryption, pipelining, and data analysis on 300TB of anonymized health data stored on AWS S3, analyzing trends by demographics and external factors like COVID-19 & lockdowns, leading to insights into patterns & correlations.
-            •	Established causal relationships between physical and mental health markers, using statistical tools and time series forecasting to lay the groundwork for personalized health interventions on users’ sleep, exercise, steps, country, age, screen time.
-              •	Proficiencies: SQL, AWS EMR, Glue, S3, Athena, Spark, Hadoop, AWS CLI, IAM, Google BigQuery, Cloud Storage, PySpark, Visualization tools (Matlab, Matplotlib, Seaborn), Statistical significance analysis, Time series forecasting, A/B testing, Explainable Models, Deep models for Time series analysis. 
+        # Data Science Engineer, Data Intelligence Lab  
+        *October 2020 - January 2022*
+
+        ### Key Achievements:
+        - **Data Analysis on User Database**:  
+          Conducted extensive data analysis on a **200 million user database** within **Samsung Health**, modeling weight, BMI, sleep, exercise, and step habits to unveil critical health trends and behaviors using **AWS EMR**, **Athena**, **Spark**, **Glue**, and **BigQuery**.
+
+        - **Data Decryption and Analysis**:  
+          Performed decryption, pipelining, and data analysis on **300TB of anonymized health data** stored on **AWS S3**, analyzing trends by demographics and external factors such as **COVID-19** and **lockdowns**, leading to key insights into patterns and correlations.
+
+        - **Health Markers Analysis**:  
+          Established causal relationships between physical and mental health markers using statistical tools and **time series forecasting**, laying the groundwork for personalized health interventions based on factors like **sleep**, **exercise**, **steps**, **age**, **screen time**, and **country**.
+
+        - **Core Proficiencies**:  
+          - **SQL**  
+          - **AWS EMR**, **Glue**, **S3**, **Athena**, **Spark**, **Hadoop**  
+          - **AWS CLI**, **IAM**  
+          - **Google BigQuery**, **Cloud Storage**  
+          - **PySpark**  
+          - **Visualization tools** (Matlab, Matplotlib, Seaborn)  
+          - **Statistical significance analysis**  
+          - **Time series forecasting**, **A/B testing**  
+          - **Explainable models**, **Deep models for time series analysis**  
 
 
     - type: id_intern
@@ -276,24 +343,54 @@ page_data:
       img_title: "img title4"
       date: "2021-01-29"
       post: |
-            ### **May - July 2019**  
-            **Research Intern**  
-            *Samsung Research, Data Analytics Lab, Dr. Jaehun Lee, Seoul, South Korea*  
-            - Extracted semantic information from Business-to-Consumer (B2C) email data across various verticals.  
-            - Analyzed and replicated Gmail’s state-of-the-art Juicer system under constraints of data and generalizability.  
-            - Designed architecture to process diverse languages and email formats, handling both tabular data and informal text.  
-            - Utilized tools such as SpaCy, KlonPY, NLTK, OpenIE, and StanfordIE to develop an adaptive model for multiple segments.  
-            - Developed custom post-processing heuristics to enhance field extraction and semantic analysis tailored to specific verticals.
+            # Research Internships
+
+            ### **Harvard University, School of Engineering and Applied Sciences**  
+            *Massachusetts, USA (Remote)*  
+            **Research Intern, Visual Computing Group**  
+            *March 2020 - August 2020*
+
+            - **Deep Learning Optimization**: Enhanced deep learning in **computer graphics** by optimizing the **PyRedner** library to improve **inverse rendering** techniques, advancing cutting-edge integration research in graphics simulation.
+            - **Monte Carlo Simulation Tool Development**: Developed a **Monte Carlo differentiable graphics simulation tool** with **GPU acceleration**, enabling more efficient simulations for real-time applications in visual computing.
 
             ---
 
-            ### **May - July 2018**  
+            ### **Samsung Research, Data Analytics Lab**  
+            *Seoul, South Korea*  
             **Research Intern**  
-            *Shibata Labs, Prof. Tomohiro Shibata, Kyutech University, Fukuoka, Japan*  
-            - Enhanced cloth segmentation capabilities by augmenting the state-of-the-art Mask R-CNN model with a custom dataset.  
-            - Designed an algorithm to determine optimal picking points from Regions of Interest (ROI) using Kinect point cloud data (PCD) for Baxter robotic arm manipulation.  
-            - Built a modular software interface using the QT library to integrate Kinect data streams, robotic motion control, ROI detection, and segmentation results into a seamless workflow.  
-            - Generated an extended labeled dataset using heuristic-based algorithms to improve the training of the deep learning model.
+            *May 2019 - July 2019*
+
+            - **Semantic Information Extraction**: Extracted semantic information from **Business-to-Consumer (B2C)** email data, enabling actionable insights across various business verticals.
+            - **Gmail Juicer System Analysis**: Analyzed and replicated **Gmail's state-of-the-art Juicer system**, focusing on its data constraints and generalizability.
+            - **Multilingual Email Processing**: Designed an architecture to process emails in multiple languages and formats, handling both structured data and informal text.
+            - **Natural Language Processing (NLP) Tools**: Utilized advanced NLP tools like **SpaCy**, **KlonPY**, **NLTK**, **OpenIE**, and **StanfordIE** to build an **adaptive model** for multiple data segments.
+            - **Custom Post-Processing Heuristics**: Developed custom **post-processing heuristics** to enhance **field extraction** and **semantic analysis**, tailored to specific business verticals.
+
+            ---
+
+            ### **Kyutech Institute of Technology, Shibata Labs**  
+
+            *Fukuoka, Japan*  
+            **Research Intern**  
+            **Brain and Human Intelligence Systems**  
+            *May 2018 - July 2018*
+
+            - **Cloth Segmentation Enhancement**: Enhanced the **Mask R-CNN** model for **cloth segmentation** by augmenting it with a custom dataset, improving the accuracy of object recognition.
+            - **Robotic Arm Manipulation**: Designed an algorithm for determining optimal picking points from **Kinect point cloud data (PCD)** for **Baxter robotic arm manipulation**, optimizing robotic efficiency.
+            - **Modular Software Interface**: Developed a modular software interface using the **QT library** to integrate **Kinect data streams**, robotic motion control, **ROI detection**, and **segmentation results** into a seamless workflow.
+            - **Heuristic-based Dataset Generation**: Generated an extended labeled dataset using heuristic-based algorithms, improving the training process for deep learning models.
+
+            - **Elderly Care Solution**: Created an innovative **elderly care solution** integrating **deep learning** and **robotic systems** using **ROS** to enable the **Baxter robot** to assist in tasks like clothing identification, segregation, and dressing. This technology greatly enhanced the **quality of life** for Japan's aging population.
+            - **Custom Hardware Solution for Robotic Systems**: Engineered a custom hardware solution, including a specialized **gripper** and **deep learning models** for **object detection** and **segmentation**, resulting in the project’s feature at **RoboMech 2018** and recognition on **Japanese National Television**.
+
+            ---
+
+            ### Key Skills & Tools:
+            - **Deep Learning** | **Inverse Rendering** | **Monte Carlo Simulation** | **GPU Acceleration**  
+            - **PyRedner** | **Computer Graphics** | **Robotics** | **ROS** | **Baxter Robot**  
+            - **Natural Language Processing (NLP)** | **SpaCy** | **KlonPY** | **NLTK** | **OpenIE** | **StanfordIE**  
+            - **Object Detection** | **Mask R-CNN** | **Kinect** | **Robotic Manipulation** | **QT Library**  
+            - **Data Analytics** | **Semantic Information Extraction** | **Post-Processing Heuristics**  
 
 
     - type: id_past_projects
@@ -414,6 +511,10 @@ page_data:
           ### **Extra-Curricular Activities**  
 
           ---
+          - **Leadership & Training**:  
+            Participated as a **Crew Member** in the *Samsung 2024 Spring Global Newcomers Program* at **Samsung University (April 2024)**.  
+            - Delivered engaging lectures and panel talks to facilitate learning and professional development among 32 international participants.  
+            - Led intensive networking and team-building programs across Samsung's global offices, including **SDS**, **DX**, **Cheil**, and **E&A**.
 
           ### **Feb - Apr 2019**  
           **Literary Analysis for IFE Understanding**  
