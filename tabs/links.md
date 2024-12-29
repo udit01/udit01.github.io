@@ -99,9 +99,9 @@ page_data:
       info: "Elderly Clothing Assistance BAXTER robot was displayed in the RoboMech 2018 and 2019 and also the iREX 2019 exhibition. Coverage on Japanese National Television."
 
     - type: id_media
-      title: "Samsung AI Inside Refrigerator"
+      title: "Samsung Smart Refrigerator"
       url: "https://www.youtube.com/watch?v=239uUZCIuqU"
-      info: "Samsung's Smart Refrigerator"
+      info: "Samsung's Smart Refrigerator, AI Inside, Developer Story"
 
     - type: id_skills
       title: "Artificial Intelligence:"

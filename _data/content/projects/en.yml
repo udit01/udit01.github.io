@@ -279,6 +279,10 @@ page_data:
 
             [Bespoke 4 door refrigerator](https://www.youtube.com/watch?v=Pm4CTT0rhvA)
 
+            [Link 1](https://www.youtube.com/watch?v=d7osaISK_kM)
+
+            [Link 2](https://news.samsung.com/global/ces-2024-elevating-lifestyles-samsung-showcases-ai-based-home-appliances-at-the-home-experience-zone)
+
 
             ![Samsung Smart Appliances](:samsung/bespoke_all.jpeg)  
             ![Samsung Smart Refrigerator](:samsung/ref_pannel.jpg)  
@@ -309,8 +313,8 @@ page_data:
             The goal is to make cameras a standard feature in all refrigerators and create an AI service that users will embrace and it will make their lives convenient.
 
     - type: id_samsung
-      project_name: "Samsung Health Data Analysis"
-      project_excerpt: "Analyzing life log data of 200M+ users around the world."
+      project_name: "Samsung Health Research Application"
+      project_excerpt: "Creating vitals monitoring application & dashboard for research studies using Samsung Health."
       img: ":project2_thumb.jpg"
       img_title: "img title4"
       date: "2023-01-28"
@@ -328,13 +332,12 @@ page_data:
 
         - **Data Visualization Dashboard**:  
           Implemented a **data visualization dashboard** using **Apache Superset**, allowing for easy interaction and insight derivation from complex data. Collaborated closely with medical researchers to streamline digital solutions for medical research processes.
-
-      
+   
     - type: id_samsung
       project_name: "Samsung Health Data Analysis"
       project_excerpt: "Analyzing life log data of 200M+ users around the world."
-      img: ":project2_thumb.jpg"
-      img_title: "img title4"
+      img: ":sh1.webp"
+      img_title: "Samsung Health"
       date: "2022-01-28"
       post: |
         # Data Science Engineer, Data Intelligence Lab  
@@ -361,6 +364,15 @@ page_data:
           - **Time series forecasting**, **A/B testing**  
           - **Explainable models**, **Deep models for time series analysis**  
 
+        Image1, 2, 3
+
+        [Press Release](https://news.samsung.com/global/understanding-sleep-how-our-sleeping-habits-changed-over-the-pandemic)
+
+        [Press Release 2](https://news.samsung.com/global/have-we-been-sleeping-well-samsung-answers-the-age-old-question-with-the-global-sleep-health-study)
+      
+        [News Feature](https://www.youtube.com/watch?v=6yaVXXMIb6o)
+
+      
 
     - type: id_intern
       project_name: "Internships"
