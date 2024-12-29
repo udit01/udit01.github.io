@@ -42,22 +42,25 @@ lng_pair: id_links
 page_data:
   main:
     header: "Publications"
-    info: "Including Education, Certifications & Miscellaneous Information."
+    info: "And Education, Skills, Certifications & Miscellaneous Information."
 
   # To change order of the Categories, simply change order. (you don't need to change list order.)
   category:
     - title: "Resume"
       type: id_resume
       color: "green"
-    - title: "Publications"
+    - title: "Publications & Press"
       type: id_pub
       color: "#F4A273"
-    - title: "Press"
-      type: id_press
+    - title: "Media"
+      type: id_media
       color: "#14A273"
     - title: "Education"
       type: id_edu
       color: "orange"
+    - title: "Relevant Skills"
+      type: id_skills
+      color: "yellow"
     - title: "Certifications"
       type: id_cert
       color: "blue"
@@ -90,11 +93,41 @@ page_data:
       url: ""
       info: "(Under Review) Two color Disjunctive Rado Number for system of linear equations. Developed the algorithm for coloring equations with numbers to solve the system of equations."
     
-    - type: id_press
+    - type: id_pub
       title: "Professor Shibata's Blog"
       url: "https://tom-shibata.hatenablog.com/entry/2018/06/16/073923"
       info: "Elderly Clothing Assistance BAXTER robot was displayed in the RoboMech 2018 and 2019 and also the iREX 2019 exhibition. Coverage on Japanese National Television."
 
+    - type: id_media
+      title: "Samsung AI Inside Refrigerator"
+      url: "https://www.youtube.com/watch?v=239uUZCIuqU"
+      info: "Samsung's Smart Refrigerator"
+
+    - type: id_skills
+      title: "Artificial Intelligence:"
+      url: ""
+      info: "Deep Learning, Computer Vision, TensorFlow, Keras, PyTorch, TensorFlow Lite, OpenCV, Natural Language Processing (NLP): SpaCy, KlonPY, NLTK, OpenIE, StanfordIE, Data Analytics: Semantic Information Extraction, Post-Processing Heuristics. Monte Carlo Simulation, Inverse Rendering, GPU Acceleration, NPU-toolkit (vsi-acuity)"
+    
+    - type: id_skills
+      title: "Robotics & Automation:"
+      url: ""
+      info: "ROS (Robot Operating System), Baxter Robot, Robotic Manipulation, Robotics AI Integration: Combining AI and robotics for practical applications, Robotic Systems Design"
+    
+    - type: id_skills
+      title: "Development:"
+      url: ""
+      info: "Programming Languages: C, C++, Java, Kotlin, Python, Matlab, SQL, Frameworks & Libraries: OpenCV, CUDA, OpenMP, MPI, SK-learn, Software Architecture: Clean Architecture Design Principles, Systems Design and Programming, Cloud Computing: AWS Cloud Deployment, S3, EMR, AWS Big Data Solutions, Database Management: SQL, AWS Athena, Google BigQuery, Room DB, Data Visualization: Apache Superset"
+    
+    # - type: id_skills
+    #   title: "Robotics & Automation:"
+    #   url: ""
+    #   info: ""
+    
+    # - type: id_skills
+    #   title: "Robotics & Automation:"
+    #   url: ""
+    #   info: ""
+    
 
 # Software skills
 # Languages Java, C, C++, Assembly, Python, Ocaml, Matlab, VHDL, Prolog, Javascript, C#, UML, LaTex, R

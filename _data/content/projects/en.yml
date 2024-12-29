@@ -73,7 +73,6 @@ page_data:
         Image2
         Image3
         
-
     # example
     - type: id_example
       project_name: "Example Project"
@@ -276,11 +275,38 @@ page_data:
               - **>90% accuracy**  
               Ensured seamless integration into refrigerator systems without compromising performance.
 
-  
+            [Samsung AI Inside Refrigerator](https://www.youtube.com/watch?v=239uUZCIuqU)
 
-            ![Samsung Smart Appliances](:samsung/bespoke_all.jpg)  
+            [Bespoke 4 door refrigerator](https://www.youtube.com/watch?v=Pm4CTT0rhvA)
+
+
+            ![Samsung Smart Appliances](:samsung/bespoke_all.jpeg)  
             ![Samsung Smart Refrigerator](:samsung/ref_pannel.jpg)  
+            
+            Excerpt shared 
+            
+            ### Lessons Learned from Applying On-Device AI Models and Services in Refrigerators
 
+            #### 1. Analyzing Service Suitability for On-Device AI from the Planning Stage  
+            The project began by applying food recognition in refrigerators to provide immediate feedback to users, identifying which food was added or removed within just a few milliseconds. Initially, large models were used, but to optimize the system for on-device performance, we separated the AI models by function and abandoned the initial structure, redesigning the entire system from scratch.  
+
+            As a result, the costs incurred was saved, enabling the offering of additional services. This approach not only enhanced usability by providing real-time (ms-level) feedback but also helped differentiate the service by leveraging real-time capabilities.
+
+            #### 2. The Importance of "NPU"  
+            We spent considerable time understanding the characteristics of the **NPU** (Neural Processing Unit) and, through numerous setbacks, gained valuable insights. We repeatedly tuned the model using techniques such as **Quantization** and **Knowledge Distillation** to optimize it for the specific NPU being used. When the limits of the system were reached, we revised the functional design, rechecked user scenarios, collaborated on UX/UI, and adjusted performance accordingly.  
+
+            For layers not supported by the NPU, modifications were made to ensure optimal performance. Without the NPU, I would not have delved deeply into each network, but in the process, I gained significant knowledge and experience.
+
+            #### 3. AI Data in the "Refrigerator"  
+            It became clear that the model's performance significantly improved when we began processing data directly. Despite limited resources (especially time and money), careful planning was implemented to maximize data collection efficiency, but there were still many shortcomings. In previous projects, extensive data collection and annotation had been carried out, but the change in circumstances led to unexpected challenges. Despite this, we worked diligently to develop the system within the given time and environment. Data collection remains an ongoing task, with continuous improvements being made.
+
+            #### 4. Home Appliances = Team Play  
+            The development of home appliances is not something that can be done in isolation. Hardware (mechanics, circuits), software (apps, servers), UX, design, planning, services, quality, marketing, sales, purchasing, legal, patents, and support teams (special thanks to those who helped with the camera and data) all played essential roles. Each team worked efficiently and effectively in their respective areas to ensure the project’s completion. Though initial opinions didn’t always align, I found great satisfaction in resolving issues through marathon meetings and collaboration. By working with the business unit , I not only developed technical skills but also slightly improved project management (PM) capabilities.
+
+            #### 5. Why Is There a Camera in the Refrigerator?  
+            The real-time **On-Device Food Recognition** feature is still in its first release and is a pioneering effort not pursued by other companies, leading to many trial and error processes. However, the Daily Active Users have been steadily increasing. We monitor refrigerators worldwide, analyzing issues, improving the service, updating, and observing consumer reactions.  
+
+            The goal is to make cameras a standard feature in all refrigerators and create an AI service that users will embrace and it will make their lives convenient.
 
     - type: id_samsung
       project_name: "Samsung Health Data Analysis"
