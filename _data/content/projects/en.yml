@@ -21,9 +21,9 @@ page_data:
     # - title: "Machine Learning"
     #   type: id_ml
     #   color: "red"
-    # - title: "Software Development"
-    #   type: id_sd
-    #   color: "orange"
+    - title: "Internships"
+      type: id_intern
+      color: "orange"
 
     - title: "Awards"
       type: id_awards
@@ -78,7 +78,7 @@ page_data:
     - type: id_example
       project_name: "Example Project"
       project_excerpt: "Examples"
-      img: ":project1_thumb.jpg"
+      img: ":iit-delhi-sm.jpg"
       img_title: "img title1"
       date: "2021-03-13"
       post: |
@@ -299,10 +299,13 @@ page_data:
     - type: id_past_projects
       project_name: "University Projects"
       project_excerpt: "Additional Miscellaneous projects done during university in brief."
-      img: ":project2_thumb.jpg"
-      img_title: "img title4"
+      img: ":iit-delhi.png"
+      img_title: "IIT Delhi"
       date: "2020-01-29"
       post: |
+            
+            ![IIT Delhi Campus](:iitdbuilding.jpg){:data-align="center"}
+
             # Research and Development Projects
 
             ### July 2018 – April 2019  
@@ -404,7 +407,7 @@ page_data:
     - type: id_past_projects
       project_name: "Past Extra Circulars"
       project_excerpt: "Extra Circulars done during university and before."
-      img: ":project2_thumb.jpg"
+      img: ":extra-cr.jpg"
       img_title: "img title4"
       date: "2020-01-20"
       post: |
@@ -452,148 +455,10 @@ page_data:
           - Developed a platform to connect artists and audiences, enabling them to showcase their skills and get hired by event managers.  
           - Built the platform’s back-end systems using Python technologies and the Django framework.
 
-
-    # - type: id_past_projects
-    #   project_name: "University Projects"
-    #   project_excerpt: "Additional Miscellaneous projects done during university."
-    #   img: ":project2_thumb.jpg"
-    #   img_title: "img title4"
-    #   date: "2020-01-28"
-    #   post: |
-
-    #           July 2018 -
-    #           Apr 2019
-    #           Recovery-Aware File Allocation APEX, Prof. Rajkumar Buyya, University of Melbourne, Australia.
-    #           { Modeled and implemented a FUSE based file-system with custom File I/O ops to allocate and recover data optimally.
-    #           { Designed a Q-learning based reinforcement learning module to simulate File system processes on Disk. Github.
-    #           { Implemented on Edge computing devices keeping in mind integrity, space efficiency and computation power on device.
-    #           Jan-Apr
-    #           2019
-    #           Operating Systems Design, Prof. S. R. Sarangi, IIT - Delhi, Delhi, India.
-    #           { Implemented inter-process communication, multi-cast and distributed algorithms on the XV6 virtual OS.
-    #           { Deployed virtualized containers with various design objectives like isolation, sys-call independencey, virtual addressing
-    #           of methods, paging of memory addresses and independent file system.
-    #           { Designed Container manager to keep track of system and user based permissions for different applications, their
-    #           scheduling on different cores, resource isolation and CRUD handling for the containers.
-    #           { Developed a parallel implementation of Jacobi function for computation of Maekawa‘s mutual exclusion algorithm for
-    #           xv6. The implementation required updating kernel to allow system calls for unicast, multicast and barriers.
-    #           Jan-Apr
-    #           2019
-    #           Kernel Hacking FreeBSD, Prof. S. R. Sarangi, IIT - Delhi, Delhi, India.
-    #           { Improving Page Replacement: Reduced memory space overheads and page laundry time overheads, used Minimal
-    #           Counting Bloom filter to maintain the usage frequencies of pages and select the optimal page for replacement.
-    #           Compared and benchmarked the TinyLFU performance metrics over SPEC. Github Repository.
-    #           { Quantitative Comparison of schedulers : Bench-marked Linux’s Completely Fair Scheduler(CFS) and FreeBSD’s ULE
-    #           schedulers and analyzed metrics to contrast them in terms of Fairness, Starvation, Load Balancing etc. Measured on
-    #           Standard benchmarks: Phoronix (single and multi-core), Sysbench and Multi-Application tests. Github Repository.
-    #             July-Nov
-    #           2019  
-    #           Alpha Go Zero - Deep Reinforcement Learning, Prof. Parag Singla, IIT-Delhi, Delhi, India.
-    #           { Developed AlphaGo Zero from scratch, training against itself and using Deep Reinforcement Learning and Monte
-    #           Carlo Tree playing strategies to make a bot that performs in a tournament to compete against other players.
-    #           { Developed an AI bot to play against human in a Strategy Trading Card game, Project CHAOS at Para-Cosmic Game
-    #           Development studios. Took into account the different bot difficulty levels, the probabilistic shuffling and drawing of
-    #           cards, and balancing the card and magic strength(turn limit) among different decks and types.
-    #           Nov-May
-    #           2017
-    #           NIR skin detection, Prof. Prathosh AP, Electrical Department, IIT-Delhi.
-    #           Skin detection and segmentation form Near Infrared images. Built upon state of the art models by training them on
-    #           manually collected and labelled data. Visualized model’s learning and compared with inference from colourized version.
-    #           Used as a sub-module in various IoT systems. Huge application in the field of heart rate and biological signals detection
-    #           in the dark, through phone’s IR scanner and through CCTV cameras. Research paper in the pipeline.
-    #           Dec-Current
-    #           2019
-    #           Disjunctive Rado Numbers, Prof. Amitabha Tripathi, Mathematics Department, IIT-Delhi.
-    #           Finding the lower and upper bounds of Disjunctive Rado numbers for different system of equations with varying coefficients,
-    #           constraints and number of variables. Developed algorithm to traverse the search space based on mathematical constraints
-    #           and heuristics. Also had to transform equation space and manage memory explosions as search space increases
-    #           exponentially with R(Rado number). Research paper in review.
-    #           Jan-Apr
-    #           2018
-    #           Software Development, Development Club, IIT-Delhi, India.
-    #           { Review System — Universal Anonymized Peer review system with rating and review for each member. Used Django
-    #           web-system and modified RSA encryption algorithm which allowed users to give anonymous and editable ratings and
-    #           comments to each other.
-    #           { File-send — Internal Online File-Sharing system for IIT-Delhi. Connected two people to perform handshake and
-    #           exchange identification meta-data through server and WebRTC backend for peer to peer socket communication and
-    #           exchange filestream between the connected people.
-    #           { In the above projects, completed the project life cycle, including Modeling, Functional specifications, Class diagrams,
-    #           Documentation(Github Wiki), Software implementation and Testing modules. Hosted on Github DevClub IITD org.
-    #           Jan-Apr
-    #           2019
-    #           Machine Learning Algorithms, Prof. Parag Singla, IIT - Delhi, Delhi, India.
-    #           { Implemented various machine learning algorithms from scratch without any library support and then compared them
-    #           with standard libraries and bench-marked them on different data-sets.
-    #           { Algorithms analyzed: Weighted linear & logistic regression, Gaussian discriminant analysis, Naive Bayes and Support
-    #           Vector Machines on YELP review data, Decision Trees and Deep Neural networks.
-    #           { Implemented Deep Reinforcement Learning algorithms to the ATARI game Breakout.
-    #           Jan-Apr
-    #           2019
-    #           Paralle and Distributed Computing, Prof. Subodh Sharma, IIT - Delhi, Delhi, India.
-    #           { Implemented distributed versions of algorithms : K Nearest Neighbours, Singular Matrix Decomposition, Principal
-    #           Component Analysis, Jacobi’s algorithm. Analyzed results on varying number of cores, threads and others params.
-    #           { Used libraries: Pthread, OpenMP, and CUDA for GPU, and the Message Passing Interface (MPI standard) .
-    #           Aug-Nov
-    #           2018
-    #           Artifical Intelligence Principles, Prof. Mausam, IIT - Delhi, Delhi, India.
-    #           { Yinsh Player — An advanced game playing robot built to play Yinsh board game. Different bots have been developed
-    #           using A3C Deep learning model. Optimization techniques like branch prediction, victory heuristic , dynamic depth
-    #           cutoff etc. The bot self learns the optimal strategy using Monte Carlo simulation.
-    #           { Black-Jack Player — Developed a bot to model probabilistic Markov-Chains and play blackjack strategically.
-    #           Aug-Nov
-    #           2018
-    #           Digital Image Analysis, Prof. P.Kalra, IIT - Delhi, Delhi, India.
-    #           { Implemented Floyd-Stienberg algorithm, post-quantization for error propagation and used xDOG for enhancement.
-    #           { Face Morphing and Swapping and Image Filtering algorithms to swap faces and add filters on Faces (Snapchat style).
-    #           { Wrote module for image in-painting based on dynamic propagation and did Image Analogies in form of Pattern
-    #           Extraction from image and reconstructing a new image
-    #           Jan-Apr
-    #           2018
-    #           Design Practices, Prof. Shubhashish Banerjee, IIT - Delhi, India.
-    #           { Designed software for 3D modeling and visualization, orthographic to isometric views reconstruction and reverse.
-    #           { Modeled and simulated flocking patterns for bird migration dynamics. Implemented multi-threading and parallelism.
-    #           { Project life cycle completed, including Mathematical Modeling, UML Diagrams, functional specifications, class
-    #           diagrams, documentation(Doxygen), software implementation, testing modules and final report.
-    #           Sept 2018 Computer Networking Systems, Prof. B.N.Jain, IIT - Delhi, Delhi, India.
-    #           Implemented and simulated the Go-Back-N ARQ protocol, an instance of automatic repeat-request protocol. Simulated
-    #           on different network configurations by dynamically running & configuring multiple senders, receivers on parallel threads.
-    #           Feb-Apr
-    #           2018
-    #           Computer Architecture and System Design, Prof. Anshul Kumar, Digital Hardware Design Lab, IIT -
-    #           Delhi, Delhi, India.
-    #           { Game in ARM ISA — Developed 2 player game Reversi in Assembly language, with positional predictions.
-    #           { Pipelined Processor — Implemented and tested processor and BUS modules with core ARM Instruction set architecture
-    #           on Basys 3 FPGA board.
-    #           Mar-Apr
-    #           2018
-    #           Programming Languages, Prof. Sanjeeva Prasad, IIT - Delhi, Delhi, India.
-    #           { Designed and implemented Krivine & SECD machines for low level languages with lazy & eager operational semantics.
-    #           { Prolog Interpreter — Implemented and tested complete end to end prolog interpreter including Lexer, Parser and Horn
-    #           clause solver. Made test benches to test the individual modules. Hosted on Github profile.
-    #           Jan 2018 Analytic Chat Bot, Microsoft CodeFunDo, General Computing lab, IIT-Delhi.
-    #           Developed a chat bot which analyzes text and gives related articles, news, recommendations, scientific papers and
-    #           summaries. It can also take out the paragraphs from images by Vision. Github Repsitory.
-    #           June-July
-    #           2017
-    #           Machine Learning Projects.
-    #           { Recommendation System — predicts user’s choices and responses using collaborative filtering model.
-    #           { Spam Classifier — Worked on the Spam detection problem by using various features of the Email being fed to to the
-    #           SVM Kernel and other classifier models.
-    #           { Digit Recognition — Recognized hand-written digits using deep neural network, images convoluted and digit parts
-    #           localized and recognized by the neural network.
-    #           June-July
-    #           2017
-    #           Robotics and Automation Projects, Prof. PVM Rao, Robotics Club, Workshop.
-    #           { Smart Switch Board for Home Automation — Made a Switch Board which works through Blue-tooth signals from
-    #           Android Devices to switch Lights,Fans,Sockets etc. Demo Video
-    #           { Bomb Disposal Robot — Created a functional bot for IIT-Kharagpur Tech-fest Robotics Competition, Bomb Disposal.
-    #           The robot had to evade obstacles and pick objects(bombs) on the course and drop them to a safe location fast. 
-
-
     - type: id_awards
       project_name: "Awards and Scholastic Achievements"
       project_excerpt: "List of Awards"
-      img: ":project2_thumb.jpg"
+      img: ":award_with_background.jpg"
       img_title: "img title6"
       date: ""
       post: |

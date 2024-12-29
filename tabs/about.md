@@ -51,5 +51,5 @@ Outside work, I like building fun projects, kaggle, reading books, working out a
 Feel free to hit me up with any of your project ideas we could work on together. 
 
 Auto Generated word cloud: 
-![Image](:about3.jpg)
+![Image](:about3.jpg){:data-align="center"}
 
