@@ -409,7 +409,6 @@ page_data:
         [Interview on how technology can help improve sleep](https://news.samsung.com/global/interview-sleep-scientist-dr-vanessa-hill-explains-how-technology-can-help-users-optimize-their-sleep)
 
 
-
     - type: id_samsung
       project_name: "Projects at Samsung"
       project_excerpt: "Other projects while at Samsung."
@@ -489,25 +488,34 @@ page_data:
 
 
     - type: id_intern
-      project_name: "Internships"
-      project_excerpt: "These will be split into different posts"
-      img: ":project2_thumb.jpg"
-      img_title: "img title4"
-      date: "2021-01-29"
+      project_name: "Visual Computing Group"
+      project_excerpt: "Deep Learning & Inverse Rendering Research"
+      img: ":internships/harvard_mit_logo.png"
+      img_title: "Harvard MIT Logo"
+      date: "2020-09-01"
       post: |
-            # Research Internships
-
-            ### **Harvard University, School of Engineering and Applied Sciences**  
+            ## **Harvard University, School of Engineering and Applied Sciences**  
             *Massachusetts, USA (Remote)*  
             **Research Intern, Visual Computing Group**  
             *March 2020 - August 2020*
 
             - **Deep Learning Optimization**: Enhanced deep learning in **computer graphics** by optimizing the **PyRedner** library to improve **inverse rendering** techniques, advancing cutting-edge integration research in graphics simulation.
             - **Monte Carlo Simulation Tool Development**: Developed a **Monte Carlo differentiable graphics simulation tool** with **GPU acceleration**, enabling more efficient simulations for real-time applications in visual computing.
-
-            ---
-
-            ### **Samsung Research, Data Analytics Lab**  
+            
+            Image 1,2, 3
+            
+            ### Key Skills & Tools:
+            - **Deep Learning** | **Inverse Rendering** | **Monte Carlo Simulation** 
+            - **PyRedner** | **Computer Graphics** | **Robotics** | **ROS** | **Baxter Robot**  
+           
+    - type: id_intern
+      project_name: "Samsung Research, Data Analytics Lab"
+      project_excerpt: "Extracting semantic information."
+      img: ":internships/samsung_research_ai_center.png"
+      img_title: "Samsung Research AI Center"
+      date: "2019-09-01"
+      post: |
+            ## **Samsung Research, Data Analytics Lab**  
             *Seoul, South Korea*  
             **Research Intern**  
             *May 2019 - July 2019*
@@ -517,10 +525,21 @@ page_data:
             - **Multilingual Email Processing**: Designed an architecture to process emails in multiple languages and formats, handling both structured data and informal text.
             - **Natural Language Processing (NLP) Tools**: Utilized advanced NLP tools like **SpaCy**, **KlonPY**, **NLTK**, **OpenIE**, and **StanfordIE** to build an **adaptive model** for multiple data segments.
             - **Custom Post-Processing Heuristics**: Developed custom **post-processing heuristics** to enhance **field extraction** and **semantic analysis**, tailored to specific business verticals.
+            
+            Image 1,2, 3
 
-            ---
+            ### Key Skills & Tools:
+            - **Natural Language Processing (NLP)** | **SpaCy** | **KlonPY** | **NLTK** | **OpenIE** | **StanfordIE**  
+            - **Data Analytics** | **Semantic Information Extraction** | **Post-Processing Heuristics**  
 
-            ### **Kyutech Institute of Technology, Shibata Labs**  
+    - type: id_intern
+      project_name: "Brain & Human Intelligence Systems, Kyutech Institue of Technology"
+      project_excerpt: "Elderly clothing assistance with human safe robotics"
+      img: ":internships/kyutech_logo.jfif"
+      img_title: "Kyutech Logo"
+      date: "2018-09-01"
+      post: |
+            ## **Kyutech Institute of Technology, Shibata Labs**  
 
             *Fukuoka, Japan*  
             **Research Intern**  
@@ -535,14 +554,11 @@ page_data:
             - **Elderly Care Solution**: Created an innovative **elderly care solution** integrating **deep learning** and **robotic systems** using **ROS** to enable the **Baxter robot** to assist in tasks like clothing identification, segregation, and dressing. This technology greatly enhanced the **quality of life** for Japan's aging population.
             - **Custom Hardware Solution for Robotic Systems**: Engineered a custom hardware solution, including a specialized **gripper** and **deep learning models** for **object detection** and **segmentation**, resulting in the project’s feature at **RoboMech 2018** and recognition on **Japanese National Television**.
 
-            ---
+            Image 1, 2, 3 
 
             ### Key Skills & Tools:
-            - **Deep Learning** | **Inverse Rendering** | **Monte Carlo Simulation** | **GPU Acceleration**  
-            - **PyRedner** | **Computer Graphics** | **Robotics** | **ROS** | **Baxter Robot**  
-            - **Natural Language Processing (NLP)** | **SpaCy** | **KlonPY** | **NLTK** | **OpenIE** | **StanfordIE**  
             - **Object Detection** | **Mask R-CNN** | **Kinect** | **Robotic Manipulation** | **QT Library**  
-            - **Data Analytics** | **Semantic Information Extraction** | **Post-Processing Heuristics**  
+            
 
 
     - type: id_past_projects
