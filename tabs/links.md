@@ -55,15 +55,15 @@ page_data:
     - title: "Media"
       type: id_media
       color: "#14A273"
-    - title: "Education"
-      type: id_edu
-      color: "orange"
+    # - title: "Education"
+    #   type: id_edu
+    #   color: "orange"
     - title: "Relevant Skills"
       type: id_skills
       color: "yellow"
     - title: "Certifications"
       type: id_cert
-      color: "blue"
+      color: "orange"
     - title: "Recommended Reads"
       type: id_rr
       color: "gray"
