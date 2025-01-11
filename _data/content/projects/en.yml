@@ -46,8 +46,8 @@ page_data:
     - type: id_hci
       project_name: "Unbinding Bodies"
       project_excerpt: "Interactive Art Exhibition"
-      img: ":project1_thumb.jpg"
-      img_title: "img title1"
+      img: ":ub/z1.jpg"
+      img_title: "Robot arm"
       date: "2024-10-26"
       post: |
         # Unbinding Bodes
@@ -69,10 +69,22 @@ page_data:
 
         > I designed the end to end Computer Vision software for the exhibition. The software was used to track the faces of visitors and move the robot arms accordingly. Another algorithm was used to display what an AI sees when it looks at the humans. 
         
-        Image1 
-        Image2
-        Image3
-        
+        ## Exhibit 
+        ![All 4 exhibit](:ub/all4.jpg){:data-align="center"}
+        ![Process](:ub/b1_full_shot.jpg){:data-align="center"}
+        ![Process](:ub/b1_close_up.jpg){:data-align="center"}
+        ![Process](:ub/b2_full.jpg){:data-align="center"}
+        ![Process](:ub/eb_total.jpg){:data-align="center"}
+        ![Process](:ub/eb_ctrl.jpg){:data-align="center"}
+        ![Process](:ub/eb_watching.jpg){:data-align="center"}
+        ![Process](:ub/z2.jpg){:data-align="center"}
+        ![Process](:ub/triple.jpg){:data-align="center"}
+
+
+        ## Process
+        ![Process](:ub/proc.jpg){:data-align="center"}
+        ![Process](:ub/proc2.jpg){:data-align="center"}
+
     # example
     - type: id_example
       project_name: "Example Project"
@@ -397,7 +409,84 @@ page_data:
         [Interview on how technology can help improve sleep](https://news.samsung.com/global/interview-sleep-scientist-dr-vanessa-hill-explains-how-technology-can-help-users-optimize-their-sleep)
 
 
-      
+
+    - type: id_samsung
+      project_name: "Projects at Samsung"
+      project_excerpt: "Other projects while at Samsung."
+      img: ":samsung/other_projects.webp"
+      img_title: "Other Projects"
+      date: "2022-01-28"
+      post: |
+        ## 180bpm
+        ## Anonymizing faces 
+        ## Federated Learning 
+        ## Ranking, re-ranking algorithm
+        ## Kotlin
+        ## AWS 
+
+        #  Overview
+
+        ## AWS
+        - **AWS ML Pipeline**
+        - **AWS Security**
+        - **AWS Technical Essentials**
+        - **Samsung Health Data Decryption**
+          - EMR, S3, Glue
+        - **Shealth Data Analysis**
+          - Schema, Avro, Parquet
+          - Glue, Athena, EMR
+          - Data Analysis and Visualization, Pivoting, SQL
+
+        ## Federated Learning
+        - **Federated_nntrainer_pyrec_ondevice**
+          - Federated on-device training
+          - NNTrainer, NNStreamer
+          - PYREC package: Developing state-of-the-art (SOTA) recommendation algorithms
+
+        ## Machine Learning & Reinforcement Learning
+        - **Edge NNTrainer**
+          - Experiments run on Google Cloud images
+        - **Reinforcement Learning**
+          - Pacman CS188 (Berkeley)
+          - Coursera Alberta Course
+
+        ## Software Development
+        - **Android Development**
+          - Android SDK and Studio
+          - Kotlin, Jetpack Compose
+          - Firebase Cloud Messaging and Notification System
+          - Medicine Research App
+          - Development for Wearables (e.g., Samsung Watch)
+          - "Now in Android" resources
+          - OCMS, Privilege SDK, Shealth SDK
+          - RoomDB for database management
+          - Background App Communication
+        - **Google Android Courses**
+          - Multiple courses and tutorials completed
+        - **FLEX Framework**
+          - Admin and Client Development
+
+        ## Recommender Systems
+        - **PYREC Package**
+          - State-of-the-art recommendation algorithms for system development
+
+        ## FreeBSD
+        - **Kernel Management**
+        - **FIRE Time Graphs**
+
+        ## Samsung Research
+        - **Shealth Analysis**
+          - SBPA Paper and Big Data Analysis
+          - Nature Papers
+          - Sleep Expertise and Custom Metrics
+          - User and Distribution Modeling in Time
+          - Analysis and Prediction of User Behavior and Churn
+          - Sleep Stages, Obesity, Weight, Exercise, and Steps Analysis
+          - COVID Pre/Post Analysis
+          - A/B Testing
+        - **Applications**
+          - Research and Development on Health Apps
+
 
     - type: id_intern
       project_name: "Internships"
