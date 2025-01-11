@@ -44,7 +44,7 @@ img: ":about.jpg"
 
 I like building stuff, and work on exciting projects. I think the process of creation is really beautiful where you create order from chaos of the universe, you decrease the entropy locally to make something which was in your mind-space and now in the physical real world. It's like magic. 
 
-Currently I'm working on Samsung's Refrigerator and adding new features to those, and making the underlying AI models for different tasks. 
+Currently I'm working on Samsung's Refrigerator  adding new features leveraging AI, creating the underlying AI models & algorithms for different use-cases. 
 
 Outside work, I like building fun projects, kaggle, reading books, working out and chess.
 
