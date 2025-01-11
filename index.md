@@ -41,8 +41,9 @@ img: ":home-heading.jpg"
 
 {%- include util/auto-content-generator.liquid -%}
 
-Welcome to my website!
+Hello~!
+I am Udit Jain, I am an Artificial Intelligence Engineer. 
 
-It is a work in progress.
+My topics of interest include: Computer Vision, Data Analysis, Deploying large-scale AI models, Deployment on Edge devices
 
-My resume is in the Links tab
+More about me in the About tab. Resume is in the Links tab.
