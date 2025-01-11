@@ -46,7 +46,7 @@ I like building stuff, and work on exciting projects. I think the process of cre
 
 Currently I'm working on Samsung's Refrigerator  adding new features leveraging AI, creating the underlying AI models & algorithms for different use-cases. 
 
-Outside work, I like building fun projects, kaggle, reading books, working out and chess.
+Outside work, I like building fun projects, Kaggle, reading books, working out and chess.
 
 Feel free to hit me up with any of your project ideas we could work on together. 
 
