@@ -36,12 +36,12 @@ date: 2024-12-28 08:11:06 +0900
 # exclude from search engines
 #search_engine_exclude: true
 # to disable this page, simply set published: false or delete this file
-#published: false
+published: false
 ---
 
 <!-- outline-start -->
 
-Outline: Why does making your own take time?
+Outline: Why does making your website own take time?
 <!-- outline-end -->
 
 <!-- ### Headings (centered)
