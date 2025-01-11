@@ -103,6 +103,16 @@ page_data:
       url: "https://www.youtube.com/watch?v=239uUZCIuqU"
       info: "Samsung's Smart Refrigerator, AI Inside, Developer Story"
 
+    - type: id_media
+      title: "Sleep with Pandemic"
+      url: "https://news.samsung.com/global/understanding-sleep-how-our-sleeping-habits-changed-over-the-pandemic"
+      info: "Insights on Global sleep changes before, during and after pandemic, Samsung Newsroom story."
+
+    - type: id_media
+      title: "Sleep with Pandemic, MBC"
+      url: "https://www.youtube.com/watch?v=6yaVXXMIb6o"
+      info: "Insights on Global sleep changes before, during and after pandemic, story covered by MBC news in Korea."
+
     - type: id_skills
       title: "Artificial Intelligence:"
       url: ""
