@@ -315,8 +315,8 @@ page_data:
     - type: id_samsung
       project_name: "Samsung Health Research Application"
       project_excerpt: "Creating vitals monitoring application & dashboard for research studies using Samsung Health."
-      img: ":project2_thumb.jpg"
-      img_title: "img title4"
+      img: ":samsung/samsung_health_research_stack.jpg"
+      img_title: "Samsung Health Research Stack"
       date: "2023-01-28"
       post: |
         # Software Engineer, Data Service Lab  
@@ -333,6 +333,20 @@ page_data:
         - **Data Visualization Dashboard**:  
           Implemented a **data visualization dashboard** using **Apache Superset**, allowing for easy interaction and insight derivation from complex data. Collaborated closely with medical researchers to streamline digital solutions for medical research processes.
    
+        ![Samsung Health Research Stack](:samsung/samsung_health_research_stack2.jpg){:data-align="center"}
+        ![Samsung Health Research Stack](:samsung/samsung_health_research_stack3.jpg){:data-align="center"}
+        ![Samsung Health Research Stack](:samsung/samsung_health_research_stack4.jpg){:data-align="center"}
+        ![Samsung Health Research Stack](:samsung/samsung_health_research_stack5.jpg){:data-align="center"}
+        ![Samsung Health Research Stack](:samsung/samsung_health_research_stack6.jpg){:data-align="center"}
+
+        [Press Release](https://news.samsung.com/global/samsung-electronics-unveils-samsung-health-research-stack)
+        [Press Release 2](https://news.samsung.com/global/samsung-electronics-unveils-samsung-health-stack-1-0)
+        [Press Release 3](https://research.samsung.com/news/Samsung-Health-Stack-Wins-UX-Design-Award-2023-for-Design-Excellence)
+
+
+        [Samsung Health SDK suite](https://developer.samsung.com/health)
+
+
     - type: id_samsung
       project_name: "Samsung Health Data Analysis"
       project_excerpt: "Analyzing life log data of 200M+ users around the world."
@@ -364,13 +378,24 @@ page_data:
           - **Time series forecasting**, **A/B testing**  
           - **Explainable models**, **Deep models for time series analysis**  
 
-        Image1, 2, 3
+        ![Samsung Health Sleep](:samsung/shealth_sleep_phone.jpg){:data-align="center"}
+        ![Sleep Trends and Global Insights](:samsung/sleep_newsroom_graphic.jpg){:data-align="center"}
+        ![Sleep Trends and Global Insights](:samsung/sleep_newsroom_g2.jpg){:data-align="center"}
+        ![Sleep Trends and Global Insights](:samsung/sleep_newsroom_g3.jpg){:data-align="center"}
+        ![Sleep Trends and Global Insights](:samsung/sleep_newsroom_g35.jpg){:data-align="center"}
+        ![Sleep Trends and Global Insights](:samsung/sleep_newsroom_g4.jpg){:data-align="center"}
+        ![Sleep Trends and Global Insights](:samsung/sleep_newsroom_g5.jpg){:data-align="center"}
+        ![Sleep Trends and Global Insights](:samsung/sleep_newsroom_g6.jpg){:data-align="center"}
+        ![Sleep Trends and Global Insights](:samsung/sleep_newsroom_g7.jpg){:data-align="center"}
 
         [Press Release](https://news.samsung.com/global/understanding-sleep-how-our-sleeping-habits-changed-over-the-pandemic)
 
         [Press Release 2](https://news.samsung.com/global/have-we-been-sleeping-well-samsung-answers-the-age-old-question-with-the-global-sleep-health-study)
       
         [News Feature](https://www.youtube.com/watch?v=6yaVXXMIb6o)
+
+        [Interview on how technology can help improve sleep](https://news.samsung.com/global/interview-sleep-scientist-dr-vanessa-hill-explains-how-technology-can-help-users-optimize-their-sleep)
+
 
       
 
