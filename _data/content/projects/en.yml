@@ -27,7 +27,7 @@ page_data:
 
     - title: "Awards"
       type: id_awards
-      color: "yellow"
+      color: "#2FD0ED"
     - title: "Past Projects"
       type: id_past_projects
       color: "gray"
@@ -488,7 +488,7 @@ page_data:
 
 
     - type: id_intern
-      project_name: "Visual Computing Group"
+      project_name: "Visual Computing Group, Harvard University (Remote)"
       project_excerpt: "Deep Learning & Inverse Rendering Research"
       img: ":internships/harvard_mit_logo.png"
       img_title: "Harvard MIT Logo"
