@@ -40,16 +40,15 @@ img: ":about.jpg"
 
 {%- include util/auto-content-generator.liquid -%}
 
-> I am **Udit Jain**, a Computer Vision Engineer Working at Samsung Research, Korea. 
+> I am **Udit Jain**, a Computer Vision Engineer at Samsung Research, Korea.
 
-I like building stuff, and work on exciting projects. I think the process of creation is really beautiful where you create order from chaos of the universe, you decrease the entropy locally to make something which was in your mind-space and now in the physical real world. It's like magic. 
+I specialize in developing AI-powered solutions with a focus on computer vision applications. My passion lies in the creative process of building innovative technologies that transform conceptual ideas into tangible solutions. This process of creation fascinates me—taking the chaos of possibilities and crafting ordered, functional systems that solve real-world problems.
 
-Currently I'm working on Samsung's Refrigerator  adding new features leveraging AI, creating the underlying AI models & algorithms for different use-cases. 
+Currently, I'm enhancing Samsung's refrigerator product line by developing advanced AI models and algorithms for various use cases. My work involves designing and implementing computer vision systems that improve user experience through intelligent feature integration.
 
-Outside work, I like building fun projects, Kaggle, reading books, working out and chess.
+Beyond my professional endeavors, I engage in competitive machine learning challenges on Kaggle, develop personal tech projects, and maintain a balanced lifestyle through reading, fitness, and strategic games like chess.
 
-Feel free to hit me up with any of your project ideas we could work on together. 
+I'm always open to collaboration on interesting projects. If you have ideas or opportunities where my expertise could add value, please don't hesitate to reach out.
 
-Auto Generated word cloud: 
+Auto Generated word cloud:
 ![Image](:about3.jpg){:data-align="center"}
-

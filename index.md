@@ -41,9 +41,18 @@ img: ":home-heading.jpg"
 
 {%- include util/auto-content-generator.liquid -%}
 
-Hello~!
-I am Udit Jain, I am an AI Engineer. 
+# Welcome to My Digital Space
 
-My topics of interest include: Computer Vision, Data Analysis, Deploying large-scale AI models, Deployment on Edge devices
+I am **Udit Jain**, an AI Engineer specializing in computer vision and machine learning solutions.
 
-More about me in the About tab. Resume is in the Links tab.
+My expertise spans:
+- Computer Vision systems and algorithms
+- Data Analysis and pattern recognition
+- Deployment of large-scale AI models
+- Edge computing optimization for AI applications
+
+I currently work at Samsung Research in Korea, where I develop intelligent features for next-generation appliances.
+
+Explore my projects, professional background, and technical insights through the navigation menu. My detailed resume is available in the Links section.
+
+Let's connect and explore how AI can solve meaningful problems!

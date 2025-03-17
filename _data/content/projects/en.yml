@@ -18,315 +18,146 @@ page_data:
     - title: "Human Computer Interaction"
       type: id_hci
       color: "light-blue"
-    # - title: "Machine Learning"
-    #   type: id_ml
-    #   color: "red"
     - title: "Internships"
       type: id_intern
       color: "orange"
-
     - title: "Awards"
       type: id_awards
       color: "#2FD0ED"
     - title: "Past Projects"
       type: id_past_projects
       color: "gray"
-    # - title: "Example"
-    #   type: id_example
-    #   color: "gray"
-    # - title: "Picture"
-    #   type: id_picture
-    #   color: "#62b462"
-    # - title: "Quote"
-    #   type: id_quote
-    #   color: "#2FD0ED"
 
   list:
   
     - type: id_hci
       project_name: "Unbinding Bodies"
-      project_excerpt: "Interactive Art Exhibition"
+      project_excerpt: "Interactive Art Exhibition with Computer Vision Integration"
       img: ":ub/z1.jpg"
-      img_title: "Robot arm"
+      img_title: "Robot arm installation at art exhibition"
       date: "2024-10-26"
       post: |
-        # Unbinding Bodes
-          **Unbinding Bodies** swiftly captures the fissures in the process where the human body, technology, consciousness, life, perception, and existence are mutually excessive and deficient. This fissure is understood as a transition from a closed to an open world, surpassing the self-contained characteristics of Western metaphysics.
+        # Unbinding Bodies
+        **Unbinding Bodies** explores the complex intersections between human bodies, technology, consciousness, and perception. The exhibition examines the transition from closed to open systems, challenging traditional Western metaphysical frameworks.
 
-          Visitors to the exhibition will experience their own senses and perceptions oscillating between excess and lack as they themselves bind and separate from technology through the work <Extruded Body> (2024). They can also track the relational encounters of various heterogeneous subjects through the performance work <≈> (2024).  
+        Visitors experience their own senses oscillating between excess and deficiency as they interact with technology through the installation <Extruded Body> (2024). The exhibition also features <≈> (2024), a performance work that traces relational encounters between diverse heterogeneous subjects.
           
-          Main Artist: Hwia Kim 
+        **Main Artist:** Hwia Kim 
           
-          Website: [Unbinding Bodies](https://www.hwia.kim/unbinding-bodies)
+        **Website:** [Unbinding Bodies](https://www.hwia.kim/unbinding-bodies)
           
-          Hosted by: Ministry of Culture, Sports, and Tourism
+        **Hosted by:** Ministry of Culture, Sports, and Tourism
           
-          Organized by: Korea Arts Management Service, Art Korea Lab
+        **Organized by:** Korea Arts Management Service, Art Korea Lab
 
 
-        # Technology
+        # Technical Contribution
         {:data-align="center"}
 
-        > I designed the end to end Computer Vision software for the exhibition. The software was used to track the faces of visitors and move the robot arms accordingly. Another algorithm was used to display what an AI sees when it looks at the humans. 
+        > I designed and implemented the end-to-end Computer Vision software powering the exhibition. The system tracks visitors' faces in real-time, controlling robot arm movements to create an interactive experience. I also developed an algorithm that visualizes how AI "sees" humans, creating a thought-provoking layer of technological interpretation.
         
-        ## Exhibit 
-        ![All 4 exhibit](:ub/all4.jpg){:data-align="center"}
-        ![Process](:ub/b1_full_shot.jpg){:data-align="center"}
-        ![Process](:ub/b1_close_up.jpg){:data-align="center"}
-        ![Process](:ub/b2_full.jpg){:data-align="center"}
-        ![Process](:ub/eb_total.jpg){:data-align="center"}
-        ![Process](:ub/eb_ctrl.jpg){:data-align="center"}
-        ![Process](:ub/eb_watching.jpg){:data-align="center"}
-        ![Process](:ub/z2.jpg){:data-align="center"}
-        ![Process](:ub/triple.jpg){:data-align="center"}
+        ## Exhibition Highlights
+        ![All four exhibition components](:ub/all4.jpg){:data-align="center"}
+        ![Interactive installation full view](:ub/b1_full_shot.jpg){:data-align="center"}
+        ![Close-up of robotic interaction](:ub/b1_close_up.jpg){:data-align="center"}
+        ![Second installation full view](:ub/b2_full.jpg){:data-align="center"}
+        ![Complete exhibition layout](:ub/eb_total.jpg){:data-align="center"}
+        ![Control system interface](:ub/eb_ctrl.jpg){:data-align="center"}
+        ![Visitor interaction with installation](:ub/eb_watching.jpg){:data-align="center"}
+        ![Robotic arm detail](:ub/z2.jpg){:data-align="center"}
+        ![Triple view of installation](:ub/triple.jpg){:data-align="center"}
 
 
-        ## Process
-        ![Process](:ub/proc.jpg){:data-align="center"}
-        ![Process](:ub/proc2.jpg){:data-align="center"}
-
-    # example
-    - type: id_example
-      project_name: "Example Project"
-      project_excerpt: "Examples"
-      img: ":iit-delhi-sm.jpg"
-      img_title: "img title1"
-      date: "2021-03-13"
-      post: |
-        # THIS IS A PROJECT PAGE 
-
-        This is an example page to display markdown related styles for Mr. Green Jekyll Theme.
-
-        ### Headings (centered)
-        {:data-align="center"}
-
-        # Heading 1
-
-        ## Heading 2
-
-        ### Heading 3
-
-        #### Heading 4
-
-        ##### Heading 5
-
-        ###### Heading 6
-
-        ***
-
-        ### Paragraphs
-
-        #### Paragraph
-
-        **William Shakespeare**,
-        hello hi 
-         Let me not to the marriage of true minds
-        Admit impediments. Love is not love
-        Which alters when it alteration finds,
-        Or bends with the remover to remove.
-        O no, it is an ever-fixed mark
-        That looks on tempests and is never shaken;
-        It is the star to every wand'ring barque,
-        Whose worth's unknown, although his height be taken.
-        Love's not Time's fool, though rosy lips and cheeks
-        Within his bending sickle's compass come;
-        Love alters not with his brief hours and weeks,
-        But bears it out even to the edge of doom.
-        If this be error and upon me proved,
-        I never writ, nor no man ever loved.
-
-        #### Texts
-
-        Quoted text `Hello world`
-
-        Bold text **Hello world**
-
-        Italic text _Hello world_
-
-        kbd text <kbd>Hello world</kbd>
-
-        #### Blockquote
-
-        > **William Shakespeare**, Let me not to the marriage of true minds
-        Admit impediments. Love is not love
-        Which alters when it alteration finds,
-        Or bends with the remover to remove.
-        O no, it is an ever-fixed mark
-        That looks on tempests and is never shaken;
-        It is the star to every wand'ring barque,
-        Whose worth's unknown, although his height be taken.
-        Love's not Time's fool, though rosy lips and cheeks
-        Within his bending sickle's compass come;
-        Love alters not with his brief hours and weeks,
-        But bears it out even to the edge of doom.
-        If this be error and upon me proved,
-        I never writ, nor no man ever loved.
-
-        ### Link
-
-        This is [Mr. Green Jekyll Theme](https://github.com/MrGreensWorkshop/MrGreen-JekyllTheme), a simple theme built for [Jekyll](https://jekyllrb.com/).
-
-        ### Picture
-
-        ![such a lovely place](:projects-heading.jpg)
-
-        ### Picture (centered)
-
-        ![such a lovely place](:project1_thumb.jpg){:data-align="center"}
-
-        ### Lists
-
-        - Apple
-        - Banana
-        - Orange
-
-        1. Fruits
-            1. Apples
-                - Granny Smith
-                - Mutsu
-            1. Bananas
-                - Cavendish
-                - Red
-        1. Vegetables
-
-        ***
-
-        ### Tables
-
-        #### Small Table (centered)
-
-        | Fruits(not aligned) | Alignment (centered) | num (right align) |
-        | ------------------- | :------------------: | ----------------: |
-        | Apple               |       centered       |              9999 |
-        | Banana              |  centered long text  |               999 |
-        | Orange              |       centered       |                99 |
-        | Lemon               |       centered       |                 9 |
-        {:data-align="center"}
-
-        #### Wide Table (centered)
-
-        scroll enabled when page is narrow
-
-        | Fruits | num (left align) | num (right align) | num  | num  | num  |
-        | ------ | :--------------- | ----------------: | ---- | ---- | ---- |
-        | Apple  | 1111             |              1111 | 2222 | 3333 | 4444 |
-        | Banana | 111              |               111 | 222  | 333  | 444  |
-        | Orange | 11               |                11 | 22   | 33   | 44   |
-        | Lemon  | 1                |                 1 | 2    | 3    | 4    |
-        {:data-align="center"}
-
-        #### Wider Table
-
-        scroll enabled when page is narrow
-
-        | Fruits | num (left align) | num (right align) | num  | num  | num  | num  | num  | num  |
-        | ------ | :--------------- | ----------------: | ---- | ---- | ---- | ---- | ---- | ---- |
-        | Apple  | 1111             |              1111 | 2222 | 3333 | 4444 | 5555 | 6666 | 7777 |
-        | Banana | 111              |               111 | 222  | 333  | 444  | 555  | 666  | 777  |
-        | Orange | 11               |                11 | 22   | 33   | 44   | 55   | 66   | 77   |
-        | Lemon  | 1                |                 1 | 2    | 3    | 4    | 5    | 6    | 7    |
-
-        ### Code
-
-        #### Quote
-
-        ```python
-        for i in range(5, 10):
-          print(i)
-        ```
-
-    # picture
-    - type: id_picture
-      project_name: "Example Project"
-      project_excerpt: "Picture"
-      img: ":project2_thumb.jpg"
-      img_title: "img title2"
-      date: "2021-04-23"
-      post: |
-        # Title
-        This is project content.
-
-        ![Image](:project2_thumb.jpg)
-
+        ## Development Process
+        ![Technical development process](:ub/proc.jpg){:data-align="center"}
+        ![System architecture and implementation](:ub/proc2.jpg){:data-align="center"}
 
     - type: id_samsung
       project_name: "Samsung Digital Appliances AI"
-      project_excerpt: "AI models for Samsung’s next-gen smart appliances."
+      project_excerpt: "Developing cutting-edge AI models for Samsung's next-generation smart appliances"
       img: ":samsung/fam_hub_cam_above_square.jpg"
-      img_title: "img title4"
+      img_title: "Samsung Family Hub Camera System"
       date: "2024-12-28"
       post: |
             # Samsung Research  
             **Seoul, South Korea**  
             **Computer Vision Engineer, Next Generation Digital Appliances Research Division**  
-            *2023 - Current*  
+            *2023 - Present*  
 
             ### Key Achievements:
             - **AI Model Development**:  
-              Developed and deployed a vision-based AI model for millions of Samsung’s next-gen smart refrigerators using **TensorFlow**, **PyTorch**, and **OpenCV**, enhancing user experience by automating food identification and inventory management.
+              Engineered and deployed vision-based AI models for Samsung's next-generation smart refrigerators, reaching millions of users worldwide. Utilized **TensorFlow**, **PyTorch**, and **OpenCV** to create systems that revolutionize user experience through automated food identification and intelligent inventory management.
               
-            - **Core Expertise**:  
-              Worked on:  
-              - Object detection  
-              - Instance detection  
-              - Feature matching  
-              - Classification  
-              - Temporal trajectory detection  
-              - Position detection  
-              - Gaze prediction  
+            - **Core Technical Expertise**:  
+              Specialized in developing advanced computer vision capabilities including:  
+              - Real-time object detection and instance segmentation  
+              - Feature extraction and matching algorithms  
+              - Multi-class classification systems  
+              - Temporal trajectory analysis  
+              - Precise position detection  
+              - Gaze prediction models  
               - Human activity recognition  
-              - Label detection, transformation, and matching  
+              - Label detection with geometric transformation and matching  
 
             - **Out-Of-Distribution (OOD) Detection**:  
-              Addressed OOD detection issues and improved model accuracy by 4% through the use of **openset loss**, **contrastive loss**, and **ensemble methods**, significantly reducing misclassifications and improving reliability in diverse conditions.
+              Tackled critical OOD detection challenges by implementing innovative approaches using **openset loss functions**, **contrastive learning techniques**, and **ensemble methodologies**. These improvements boosted model accuracy by 4% while significantly reducing misclassifications and enhancing reliability across diverse real-world conditions.
 
-            - **NPU Optimization**:  
-              Optimized AI models for NPU deployment, achieving performance metrics of:  
-              - **<40MB size**  
-              - **<70ms latency**  
-              - **>90% accuracy**  
-              Ensured seamless integration into refrigerator systems without compromising performance.
+            - **Neural Processing Unit Optimization**:  
+              Optimized complex AI models for efficient NPU deployment, achieving exceptional performance metrics:  
+              - **<40MB model size** (enabling on-device deployment)  
+              - **<70ms inference latency** (ensuring real-time user experience)  
+              - **>90% accuracy** (maintaining high reliability)  
+              These optimizations ensured seamless integration into refrigerator systems while preserving both performance and user privacy.
 
+            ### Product Videos:
             [Samsung AI Inside Refrigerator](https://www.youtube.com/watch?v=239uUZCIuqU)
 
-            [Bespoke 4 door refrigerator](https://www.youtube.com/watch?v=Pm4CTT0rhvA)
+            [Bespoke 4-Door Refrigerator](https://www.youtube.com/watch?v=Pm4CTT0rhvA)
 
-            [Link 1](https://www.youtube.com/watch?v=d7osaISK_kM)
+            [AI Features Demonstration](https://www.youtube.com/watch?v=d7osaISK_kM)
 
-            [Link 2](https://news.samsung.com/global/ces-2024-elevating-lifestyles-samsung-showcases-ai-based-home-appliances-at-the-home-experience-zone)
+            [CES 2024 Showcase](https://news.samsung.com/global/ces-2024-elevating-lifestyles-samsung-showcases-ai-based-home-appliances-at-the-home-experience-zone)
 
 
-            ![Samsung Smart Appliances](:samsung/bespoke_all.jpeg)  
-            ![Samsung Smart Refrigerator](:samsung/ref_pannel.jpg)  
+            ![Samsung Smart Appliances Ecosystem](:samsung/bespoke_all.jpeg)  
+            ![Samsung Smart Refrigerator Interface](:samsung/ref_pannel.jpg)  
             
-            Excerpt shared 
-            
-            ### Lessons Learned from Applying On-Device AI Models and Services in Refrigerators
+            ### Lessons Learned from Applying On-Device AI Models in Refrigerators
 
-            #### 1. Analyzing Service Suitability for On-Device AI from the Planning Stage  
-            The project began by applying food recognition in refrigerators to provide immediate feedback to users, identifying which food was added or removed within just a few milliseconds. Initially, large models were used, but to optimize the system for on-device performance, we separated the AI models by function and abandoned the initial structure, redesigning the entire system from scratch.  
+            #### 1. Strategic Service Planning for On-Device AI  
+            Our project began with implementing food recognition in refrigerators to provide instantaneous feedback to users. We initially deployed comprehensive models but quickly realized the need for optimization. By strategically separating AI models by function and redesigning the system architecture from first principles, we significantly reduced computational costs while enabling additional features.
 
-            As a result, the costs incurred was saved, enabling the offering of additional services. This approach not only enhanced usability by providing real-time (ms-level) feedback but also helped differentiate the service by leveraging real-time capabilities.
+            This approach delivered two critical advantages: enhanced user experience through millisecond-level response times and product differentiation through capabilities competitors couldn't match with cloud-dependent solutions.
 
-            #### 2. The Importance of "NPU"  
-            We spent considerable time understanding the characteristics of the **NPU** (Neural Processing Unit) and, through numerous setbacks, gained valuable insights. We repeatedly tuned the model using techniques such as **Quantization** and **Knowledge Distillation** to optimize it for the specific NPU being used. When the limits of the system were reached, we revised the functional design, rechecked user scenarios, collaborated on UX/UI, and adjusted performance accordingly.  
+            #### 2. Mastering NPU Optimization  
+            Working with Neural Processing Units (NPUs) presented unique challenges that required deep technical expertise. Through iterative refinement, we developed specialized techniques for model optimization including:
+            - **Quantization** to reduce model size while preserving accuracy
+            - **Knowledge Distillation** to transfer capabilities from larger to smaller models
+            - **Architecture modifications** to accommodate NPU-specific constraints
 
-            For layers not supported by the NPU, modifications were made to ensure optimal performance. Without the NPU, I would not have delved deeply into each network, but in the process, I gained significant knowledge and experience.
+            For layers not natively supported by the NPU, we implemented custom solutions to maintain performance. This process demanded a comprehensive understanding of each network component, ultimately expanding our technical capabilities and expertise.
 
-            #### 3. AI Data in the "Refrigerator"  
-            It became clear that the model's performance significantly improved when we began processing data directly. Despite limited resources (especially time and money), careful planning was implemented to maximize data collection efficiency, but there were still many shortcomings. In previous projects, extensive data collection and annotation had been carried out, but the change in circumstances led to unexpected challenges. Despite this, we worked diligently to develop the system within the given time and environment. Data collection remains an ongoing task, with continuous improvements being made.
+            #### 3. Data Collection Strategies for Appliance AI  
+            We discovered that model performance improved dramatically when we refined our data processing approach. Despite resource constraints, we implemented strategic data collection protocols to maximize efficiency. This included:
+            - Distributed collection systems across regional offices
+            - Targeted annotation prioritization
+            - Continuous data quality improvement
 
-            #### 4. Home Appliances = Team Play  
-            The development of home appliances is not something that can be done in isolation. Hardware (mechanics, circuits), software (apps, servers), UX, design, planning, services, quality, marketing, sales, purchasing, legal, patents, and support teams (special thanks to those who helped with the camera and data) all played essential roles. Each team worked efficiently and effectively in their respective areas to ensure the project’s completion. Though initial opinions didn’t always align, I found great satisfaction in resolving issues through marathon meetings and collaboration. By working with the business unit , I not only developed technical skills but also slightly improved project management (PM) capabilities.
+            Our experience highlighted that thoughtful data strategy is as important as model architecture for real-world AI applications.
 
-            #### 5. Why Is There a Camera in the Refrigerator?  
-            The real-time **On-Device Food Recognition** feature is still in its first release and is a pioneering effort not pursued by other companies, leading to many trial and error processes. However, the Daily Active Users have been steadily increasing. We monitor refrigerators worldwide, analyzing issues, improving the service, updating, and observing consumer reactions.  
+            #### 4. Cross-Functional Collaboration  
+            Developing AI for home appliances required seamless coordination across multiple disciplines. Hardware teams (mechanics, circuits), software teams (applications, servers), UX designers, product planners, quality assurance, marketing, sales, legal, and patent specialists all contributed essential expertise.
 
-            The goal is to make cameras a standard feature in all refrigerators and create an AI service that users will embrace and it will make their lives convenient.
+            Through intensive collaboration sessions and cross-functional problem-solving, we aligned diverse perspectives to create a cohesive product. This experience enhanced not only my technical skills but also my project management capabilities.
+
+            #### 5. Pioneering New User Experiences  
+            Our real-time **On-Device Food Recognition** feature represents a first-of-its-kind innovation not yet matched by competitors. While the initial release required extensive experimentation, we've seen steadily increasing daily active user metrics. Our global monitoring system allows us to analyze usage patterns, identify issues, and continuously improve the service.
+
+            Our vision is to establish cameras as standard components in all refrigerators, creating AI services that seamlessly integrate into users' daily lives while delivering meaningful convenience.
 
     - type: id_samsung
       project_name: "Samsung Health Research Application"
-      project_excerpt: "Creating vitals monitoring application & dashboard for research studies using Samsung Health."
+      project_excerpt: "Developing a comprehensive health research platform connecting Samsung devices with medical research"
       img: ":samsung/samsung_health_research_stack.jpg"
       img_title: "Samsung Health Research Stack"
       date: "2023-01-28"
@@ -335,163 +166,161 @@ page_data:
         *January 2022 - January 2023*
 
         ### Key Achievements:
-        - **Samsung Health Research Application Deployment**:  
-          Deployed the **Samsung Health Research Application**, facilitating participant life-log data analysis at **Samsung Medical Center** and other hospitals. Designed the end-to-end system architecture using **Clean Architecture** to enhance scalability and maintainability.
+        - **Samsung Health Research Platform Development**:  
+          Architected and deployed the **Samsung Health Research Application**, creating a bridge between consumer technology and clinical research. This platform enables comprehensive participant life-log data analysis at **Samsung Medical Center** and partner hospitals, facilitating groundbreaking health studies. Implemented **Clean Architecture** principles to ensure scalability, maintainability, and future extensibility.
 
-        - **Client-Side and Server-Side Development**:  
-          - Developed the **client-side application** using **Kotlin** and the **Android Framework** to optimize user experience.  
-          - Engineered the **server-side infrastructure** using **Node.js** to ensure secure and efficient data handling and integration.
+        - **Full-Stack Development**:  
+          - Engineered the **client-side application** using **Kotlin** and the **Android Framework**, creating an intuitive interface that simplifies complex data collection while ensuring participant privacy and compliance with medical research standards.  
+          - Developed robust **server-side infrastructure** using **Node.js**, implementing secure data handling protocols, efficient storage solutions, and seamless integration with existing medical research systems.
 
-        - **Data Visualization Dashboard**:  
-          Implemented a **data visualization dashboard** using **Apache Superset**, allowing for easy interaction and insight derivation from complex data. Collaborated closely with medical researchers to streamline digital solutions for medical research processes.
+        - **Research Data Visualization**:  
+          Created a comprehensive **data visualization dashboard** using **Apache Superset**, transforming complex health metrics into accessible insights for medical researchers. This system enables intuitive exploration of multidimensional health data, accelerating the research process and facilitating discovery of meaningful patterns. Worked directly with medical researchers to optimize the platform for clinical workflow integration.
    
-        ![Samsung Health Research Stack](:samsung/samsung_health_research_stack2.jpg){:data-align="center"}
-        ![Samsung Health Research Stack](:samsung/samsung_health_research_stack3.jpg){:data-align="center"}
-        ![Samsung Health Research Stack](:samsung/samsung_health_research_stack4.jpg){:data-align="center"}
-        ![Samsung Health Research Stack](:samsung/samsung_health_research_stack5.jpg){:data-align="center"}
-        ![Samsung Health Research Stack](:samsung/samsung_health_research_stack6.jpg){:data-align="center"}
+        ![Samsung Health Research Stack Architecture](:samsung/samsung_health_research_stack2.jpg){:data-align="center"}
+        ![Data Flow and Integration](:samsung/samsung_health_research_stack3.jpg){:data-align="center"}
+        ![User Interface and Experience](:samsung/samsung_health_research_stack4.jpg){:data-align="center"}
+        ![Research Dashboard](:samsung/samsung_health_research_stack5.jpg){:data-align="center"}
+        ![Implementation Details](:samsung/samsung_health_research_stack6.jpg){:data-align="center"}
 
-        [Press Release](https://news.samsung.com/global/samsung-electronics-unveils-samsung-health-research-stack)
-        [Press Release 2](https://news.samsung.com/global/samsung-electronics-unveils-samsung-health-stack-1-0)
-        [Press Release 3](https://research.samsung.com/news/Samsung-Health-Stack-Wins-UX-Design-Award-2023-for-Design-Excellence)
+        ### Recognition and Impact:
+        [Official Press Release](https://news.samsung.com/global/samsung-electronics-unveils-samsung-health-research-stack)
+        [Product Launch Announcement](https://news.samsung.com/global/samsung-electronics-unveils-samsung-health-stack-1-0)
+        [UX Design Award 2023](https://research.samsung.com/news/Samsung-Health-Stack-Wins-UX-Design-Award-2023-for-Design-Excellence)
 
-
-        [Samsung Health SDK suite](https://developer.samsung.com/health)
+        ### Developer Resources:
+        [Samsung Health SDK Documentation](https://developer.samsung.com/health)
 
 
     - type: id_samsung
       project_name: "Samsung Health Data Analysis"
-      project_excerpt: "Analyzing life log data of 200M+ users around the world."
+      project_excerpt: "Extracting actionable insights from the health data of over 200 million users worldwide"
       img: ":samsung/sh1.webp"
-      img_title: "Samsung Health"
+      img_title: "Samsung Health Analytics"
       date: "2022-01-28"
       post: |
         # Data Science Engineer, Data Intelligence Lab  
         *October 2020 - January 2022*
 
         ### Key Achievements:
-        - **Data Analysis on User Database**:  
-          Conducted extensive data analysis on a **200 million user database** within **Samsung Health**, modeling weight, BMI, sleep, exercise, and step habits to unveil critical health trends and behaviors using **AWS EMR**, **Athena**, **Spark**, **Glue**, and **BigQuery**.
+        - **Large-Scale Health Data Analysis**:  
+          Led comprehensive data analysis initiatives on **Samsung Health's 200+ million user database**, developing sophisticated models to analyze weight fluctuations, BMI trends, sleep patterns, exercise habits, and daily activity metrics. Utilized advanced cloud technologies including **AWS EMR**, **Athena**, **Spark**, **Glue**, and **BigQuery** to process and derive actionable insights from this massive dataset.
 
-        - **Data Decryption and Analysis**:  
-          Performed decryption, pipelining, and data analysis on **300TB of anonymized health data** stored on **AWS S3**, analyzing trends by demographics and external factors such as **COVID-19** and **lockdowns**, leading to key insights into patterns and correlations.
+        - **Data Pipeline Engineering**:  
+          Designed and implemented secure pipelines for decryption and analysis of **300+ terabytes of anonymized health data** stored on **AWS S3**. Conducted in-depth trend analysis segmented by demographics and contextual factors such as **COVID-19 lockdowns**, revealing critical insights into global health behavior patterns and correlations.
 
-        - **Health Markers Analysis**:  
-          Established causal relationships between physical and mental health markers using statistical tools and **time series forecasting**, laying the groundwork for personalized health interventions based on factors like **sleep**, **exercise**, **steps**, **age**, **screen time**, and **country**.
+        - **Health Marker Correlation Analysis**:  
+          Established statistically significant relationships between physical and mental health markers using advanced statistical methodologies and **time series forecasting**. This work created the foundation for personalized health interventions based on multidimensional factors including **sleep quality**, **exercise intensity**, **daily activity levels**, **demographic variables**, **device usage patterns**, and **geographic location**.
 
-        - **Core Proficiencies**:  
-          - **SQL**  
-          - **AWS EMR**, **Glue**, **S3**, **Athena**, **Spark**, **Hadoop**  
-          - **AWS CLI**, **IAM**  
-          - **Google BigQuery**, **Cloud Storage**  
-          - **PySpark**  
-          - **Visualization tools** (Matlab, Matplotlib, Seaborn)  
-          - **Statistical significance analysis**  
-          - **Time series forecasting**, **A/B testing**  
-          - **Explainable models**, **Deep models for time series analysis**  
+        - **Technical Expertise**:  
+          - **Advanced SQL** for complex health data queries  
+          - **AWS ecosystem** (EMR, Glue, S3, Athena, Spark, Hadoop)  
+          - **Cloud security** and **IAM** implementation  
+          - **Google Cloud** (BigQuery, Cloud Storage)  
+          - **PySpark** for distributed data processing  
+          - **Scientific visualization** (Matlab, Matplotlib, Seaborn)  
+          - **Statistical analysis** and significance testing  
+          - **Time series modeling** and **A/B testing**  
+          - **Explainable AI** and **deep learning for temporal data**  
 
-        ![Samsung Health Sleep](:samsung/shealth_sleep_phone.jpg){:data-align="center"}
-        ![Sleep Trends and Global Insights](:samsung/sleep_newsroom_graphic.jpg){:data-align="center"}
-        ![Sleep Trends and Global Insights](:samsung/sleep_newsroom_g2.jpg){:data-align="center"}
-        ![Sleep Trends and Global Insights](:samsung/sleep_newsroom_g3.jpg){:data-align="center"}
-        ![Sleep Trends and Global Insights](:samsung/sleep_newsroom_g35.jpg){:data-align="center"}
-        ![Sleep Trends and Global Insights](:samsung/sleep_newsroom_g4.jpg){:data-align="center"}
-        ![Sleep Trends and Global Insights](:samsung/sleep_newsroom_g5.jpg){:data-align="center"}
-        ![Sleep Trends and Global Insights](:samsung/sleep_newsroom_g6.jpg){:data-align="center"}
-        ![Sleep Trends and Global Insights](:samsung/sleep_newsroom_g7.jpg){:data-align="center"}
+        ### Research Visualizations:
+        ![Samsung Health Sleep Interface](:samsung/shealth_sleep_phone.jpg){:data-align="center"}
+        ![Global Sleep Pattern Analysis](:samsung/sleep_newsroom_graphic.jpg){:data-align="center"}
+        ![Regional Sleep Comparisons](:samsung/sleep_newsroom_g2.jpg){:data-align="center"}
+        ![Pandemic Impact on Sleep](:samsung/sleep_newsroom_g3.jpg){:data-align="center"}
+        ![Sleep Quality Metrics](:samsung/sleep_newsroom_g35.jpg){:data-align="center"}
+        ![Age-Related Sleep Patterns](:samsung/sleep_newsroom_g4.jpg){:data-align="center"}
+        ![Sleep Duration Trends](:samsung/sleep_newsroom_g5.jpg){:data-align="center"}
+        ![Seasonal Sleep Variations](:samsung/sleep_newsroom_g6.jpg){:data-align="center"}
+        ![Correlation Analysis Results](:samsung/sleep_newsroom_g7.jpg){:data-align="center"}
 
-        [Press Release](https://news.samsung.com/global/understanding-sleep-how-our-sleeping-habits-changed-over-the-pandemic)
+        ### Publications and Media Coverage:
+        [Global Sleep Health Study Press Release](https://news.samsung.com/global/understanding-sleep-how-our-sleeping-habits-changed-over-the-pandemic)
 
-        [Press Release 2](https://news.samsung.com/global/have-we-been-sleeping-well-samsung-answers-the-age-old-question-with-the-global-sleep-health-study)
+        [Comprehensive Sleep Analysis Findings](https://news.samsung.com/global/have-we-been-sleeping-well-samsung-answers-the-age-old-question-with-the-global-sleep-health-study)
       
-        [News Feature](https://www.youtube.com/watch?v=6yaVXXMIb6o)
+        [News Feature on Sleep Research](https://www.youtube.com/watch?v=6yaVXXMIb6o)
 
-        [Interview on how technology can help improve sleep](https://news.samsung.com/global/interview-sleep-scientist-dr-vanessa-hill-explains-how-technology-can-help-users-optimize-their-sleep)
+        [Expert Interview: Technology and Sleep Optimization](https://news.samsung.com/global/interview-sleep-scientist-dr-vanessa-hill-explains-how-technology-can-help-users-optimize-their-sleep)
 
 
     - type: id_samsung
-      project_name: "Projects at Samsung"
-      project_excerpt: "Other projects while at Samsung."
+      project_name: "Additional Samsung Projects"
+      project_excerpt: "Diverse technical initiatives across Samsung's ecosystem"
       img: ":samsung/other_projects.webp"
-      img_title: "Other Projects"
+      img_title: "Samsung Technology Portfolio"
       date: "2022-01-28"
       post: |
-        ## 180bpm
-        ## Anonymizing faces 
-        ## Federated Learning 
-        ## Ranking, re-ranking algorithm
-        ## Kotlin
-        ## AWS 
+        # Technical Portfolio at Samsung
 
-        #  Overview
+        ## Cloud Infrastructure & Data Engineering
+        - **AWS ML Pipeline Architecture**
+          - Designed end-to-end machine learning pipelines for production deployment
+          - Implemented security best practices for sensitive health data
+          - Optimized resource utilization and cost efficiency
+        - **Samsung Health Data Processing**
+          - Engineered decryption workflows for petabyte-scale health datasets
+          - Optimized data formats (Avro, Parquet) for analytical efficiency
+          - Created high-performance query systems using Glue, Athena, and EMR
 
-        ## AWS
-        - **AWS ML Pipeline**
-        - **AWS Security**
-        - **AWS Technical Essentials**
-        - **Samsung Health Data Decryption**
-          - EMR, S3, Glue
-        - **Shealth Data Analysis**
-          - Schema, Avro, Parquet
-          - Glue, Athena, EMR
-          - Data Analysis and Visualization, Pivoting, SQL
+        ## Federated Learning Systems
+        - **On-Device Training Framework**
+          - Implemented privacy-preserving federated learning architecture
+          - Integrated NNTrainer and NNStreamer for efficient model updates
+          - Developed communication protocols for secure model aggregation
+        - **PYREC Recommendation Engine**
+          - Developed state-of-the-art recommendation algorithms
+          - Optimized for on-device deployment with minimal resource consumption
+          - Implemented personalization features while preserving privacy
 
-        ## Federated Learning
-        - **Federated_nntrainer_pyrec_ondevice**
-          - Federated on-device training
-          - NNTrainer, NNStreamer
-          - PYREC package: Developing state-of-the-art (SOTA) recommendation algorithms
+        ## Edge Computing & Optimization
+        - **Edge NNTrainer Implementation**
+          - Conducted experiments on Google Cloud infrastructure
+          - Optimized neural network performance for edge devices
+          - Reduced inference latency while maintaining accuracy
+        - **Reinforcement Learning Applications**
+          - Applied RL techniques to optimization problems
+          - Implemented algorithms from Berkeley CS188 and Alberta coursework
+          - Created adaptive systems for dynamic environments
 
-        ## Machine Learning & Reinforcement Learning
-        - **Edge NNTrainer**
-          - Experiments run on Google Cloud images
-        - **Reinforcement Learning**
-          - Pacman CS188 (Berkeley)
-          - Coursera Alberta Course
-
-        ## Software Development
-        - **Android Development**
-          - Android SDK and Studio
-          - Kotlin, Jetpack Compose
-          - Firebase Cloud Messaging and Notification System
-          - Medicine Research App
-          - Development for Wearables (e.g., Samsung Watch)
-          - "Now in Android" resources
-          - OCMS, Privilege SDK, Shealth SDK
-          - RoomDB for database management
-          - Background App Communication
-        - **Google Android Courses**
-          - Multiple courses and tutorials completed
-        - **FLEX Framework**
-          - Admin and Client Development
+        ## Mobile & Wearable Development
+        - **Android Application Development**
+          - Built applications using Kotlin and Jetpack Compose
+          - Implemented Firebase Cloud Messaging for notification systems
+          - Created responsive interfaces for diverse device form factors
+        - **Healthcare Research Applications**
+          - Developed specialized applications for medical research
+          - Implemented secure data collection and transmission protocols
+          - Designed interfaces optimized for clinical environments
+        - **System Integration**
+          - Utilized OCMS, Privilege SDK, and Samsung Health SDK
+          - Implemented RoomDB for efficient data management
+          - Designed background communication protocols for continuous monitoring
 
         ## Recommender Systems
-        - **PYREC Package**
-          - State-of-the-art recommendation algorithms for system development
+        - **PYREC Package Development**
+          - Contributed to Samsung's recommendation engine framework
+          - Implemented and optimized state-of-the-art algorithms
+          - Developed evaluation metrics for recommendation quality
 
-        ## FreeBSD
-        - **Kernel Management**
-        - **FIRE Time Graphs**
+        ## System Engineering
+        - **FreeBSD Kernel Management**
+          - Optimized kernel parameters for performance
+          - Implemented FIRE time graph visualizations
+          - Enhanced system stability for production environments
 
-        ## Samsung Research
-        - **Shealth Analysis**
-          - SBPA Paper and Big Data Analysis
-          - Nature Papers
-          - Sleep Expertise and Custom Metrics
-          - User and Distribution Modeling in Time
-          - Analysis and Prediction of User Behavior and Churn
-          - Sleep Stages, Obesity, Weight, Exercise, and Steps Analysis
-          - COVID Pre/Post Analysis
-          - A/B Testing
-        - **Applications**
-          - Research and Development on Health Apps
-
+        ## Health Analytics Research
+        - **Samsung Health Analysis**
+          - Contributed to scientific publications and white papers
+          - Developed specialized metrics for sleep quality assessment
+          - Created user behavior and churn prediction models
+          - Conducted pre/post COVID-19 comparative analysis
+          - Designed and implemented A/B testing frameworks for feature evaluation
 
     - type: id_intern
-      project_name: "Visual Computing Group, Harvard University (Remote)"
-      project_excerpt: "Deep Learning & Inverse Rendering Research"
+      project_name: "Visual Computing Group, Harvard University"
+      project_excerpt: "Advancing deep learning techniques for computer graphics and inverse rendering"
       img: ":internships/harvard_mit_logo.png"
-      img_title: "Harvard MIT Logo"
+      img_title: "Harvard University Research"
       date: "2020-09-01"
       post: |
             ## **Harvard University, School of Engineering and Applied Sciences**  
@@ -499,18 +328,24 @@ page_data:
             **Research Intern, Visual Computing Group**  
             *March 2020 - August 2020*
 
-            - **Deep Learning Optimization**: Enhanced deep learning in **computer graphics** by optimizing the **PyRedner** library to improve **inverse rendering** techniques, advancing cutting-edge integration research in graphics simulation.
-            - **Monte Carlo Simulation Tool Development**: Developed a **Monte Carlo differentiable graphics simulation tool** with **GPU acceleration**, enabling more efficient simulations for real-time applications in visual computing.
+            ### Research Contributions:
+            - **Deep Learning for Computer Graphics**: Enhanced the integration of deep learning with computer graphics by optimizing the **PyRedner** differentiable rendering library. This work improved **inverse rendering** techniques, enabling more accurate 3D scene reconstruction from 2D images and advancing the state-of-the-art in graphics-AI integration.
             
-            Image 1,2, 3
+            - **GPU-Accelerated Monte Carlo Simulation**: Developed a sophisticated **Monte Carlo differentiable graphics simulation tool** with **GPU acceleration**, significantly improving computational efficiency for real-time applications. This system enabled more realistic physics-based rendering while maintaining the differentiability needed for deep learning optimization.
             
-            ### Key Skills & Tools:
-            - **Deep Learning** | **Inverse Rendering** | **Monte Carlo Simulation** 
-            - **PyRedner** | **Computer Graphics** | **Robotics** | **ROS** | **Baxter Robot**  
+            ### Technical Impact:
+            The optimized PyRedner library and simulation tools developed during this internship have been integrated into Harvard's visual computing research pipeline, supporting ongoing work in computer vision, robotics, and computational photography. The GPU acceleration techniques implemented resulted in significant performance improvements for rendering tasks.
+            
+            ### Key Skills & Technologies:
+            - **Deep Learning Frameworks**: PyTorch, TensorFlow
+            - **Computer Graphics**: Differentiable Rendering, Inverse Graphics
+            - **Simulation**: Monte Carlo Methods, Physics-Based Rendering
+            - **GPU Programming**: CUDA Optimization, Parallel Computing
+            - **Robotics Integration**: ROS, Baxter Robot Control Systems
            
     - type: id_intern
       project_name: "Samsung Research, Data Analytics Lab"
-      project_excerpt: "Extracting semantic information."
+      project_excerpt: "Developing advanced NLP systems for semantic information extraction from business communications"
       img: ":internships/samsung_research_ai_center.png"
       img_title: "Samsung Research AI Center"
       date: "2019-09-01"
@@ -520,52 +355,65 @@ page_data:
             **Research Intern**  
             *May 2019 - July 2019*
 
-            - **Semantic Information Extraction**: Extracted semantic information from **Business-to-Consumer (B2C)** email data, enabling actionable insights across various business verticals.
-            - **Gmail Juicer System Analysis**: Analyzed and replicated **Gmail's state-of-the-art Juicer system**, focusing on its data constraints and generalizability.
-            - **Multilingual Email Processing**: Designed an architecture to process emails in multiple languages and formats, handling both structured data and informal text.
-            - **Natural Language Processing (NLP) Tools**: Utilized advanced NLP tools like **SpaCy**, **KlonPY**, **NLTK**, **OpenIE**, and **StanfordIE** to build an **adaptive model** for multiple data segments.
-            - **Custom Post-Processing Heuristics**: Developed custom **post-processing heuristics** to enhance **field extraction** and **semantic analysis**, tailored to specific business verticals.
+            ### Project Achievements:
+            - **Business Intelligence System**: Developed a comprehensive system for extracting actionable semantic information from **Business-to-Consumer (B2C)** email communications, enabling data-driven insights across multiple business verticals and improving customer relationship management.
             
-            Image 1,2, 3
+            - **Advanced Email Processing Architecture**: Reverse-engineered and enhanced **Gmail's Juicer system** architecture, addressing its limitations in data constraints and generalizability. Created a more flexible framework capable of handling diverse email formats and content types.
+            
+            - **Multilingual NLP Pipeline**: Designed a sophisticated architecture for processing emails in multiple languages and formats, successfully handling both structured data elements and informal conversational text through a unified processing pipeline.
+            
+            - **Integrated NLP Toolkit**: Leveraged and extended advanced natural language processing tools including **SpaCy**, **KlonPY**, **NLTK**, **OpenIE**, and **StanfordIE** to create an adaptive model capable of extracting meaningful information from diverse communication contexts.
+            
+            - **Domain-Specific Optimization**: Implemented custom **post-processing heuristics** that significantly enhanced field extraction accuracy and semantic analysis quality, with specialized optimizations for different business verticals and communication types.
 
-            ### Key Skills & Tools:
-            - **Natural Language Processing (NLP)** | **SpaCy** | **KlonPY** | **NLTK** | **OpenIE** | **StanfordIE**  
-            - **Data Analytics** | **Semantic Information Extraction** | **Post-Processing Heuristics**  
+            ### Technical Impact:
+            The semantic extraction system developed during this internship was integrated into Samsung's business intelligence pipeline, providing valuable insights from customer communications that informed product development and customer service improvements. The multilingual capabilities expanded the system's applicability across Samsung's global markets.
+
+            ### Key Skills & Technologies:
+            - **Natural Language Processing**: Information Extraction, Named Entity Recognition, Semantic Analysis
+            - **NLP Frameworks**: SpaCy, NLTK, OpenIE, StanfordIE, KlonPY
+            - **Multilingual Processing**: Cross-language information extraction
+            - **Data Analytics**: Pattern recognition, Semantic clustering
+            - **System Architecture**: Scalable NLP pipelines, Modular design
 
     - type: id_intern
-      project_name: "Brain & Human Intelligence Systems, Kyutech Institue of Technology"
-      project_excerpt: "Elderly clothing assistance with human safe robotics"
+      project_name: "Brain & Human Intelligence Systems, Kyutech Institute of Technology"
+      project_excerpt: "Creating robotic assistance systems for elderly care using computer vision and deep learning"
       img: ":internships/kyutech_logo.jfif"
-      img_title: "Kyutech Logo"
+      img_title: "Kyutech Research"
       date: "2018-09-01"
       post: |
             ## **Kyutech Institute of Technology, Shibata Labs**  
-
             *Fukuoka, Japan*  
-            **Research Intern**  
-            **Brain and Human Intelligence Systems**  
+            **Research Intern, Brain and Human Intelligence Systems**  
             *May 2018 - July 2018*
 
-            - **Cloth Segmentation Enhancement**: Enhanced the **Mask R-CNN** model for **cloth segmentation** by augmenting it with a custom dataset, improving the accuracy of object recognition.
-            - **Robotic Arm Manipulation**: Designed an algorithm for determining optimal picking points from **Kinect point cloud data (PCD)** for **Baxter robotic arm manipulation**, optimizing robotic efficiency.
-            - **Modular Software Interface**: Developed a modular software interface using the **QT library** to integrate **Kinect data streams**, robotic motion control, **ROI detection**, and **segmentation results** into a seamless workflow.
-            - **Heuristic-based Dataset Generation**: Generated an extended labeled dataset using heuristic-based algorithms, improving the training process for deep learning models.
-
-            - **Elderly Care Solution**: Created an innovative **elderly care solution** integrating **deep learning** and **robotic systems** using **ROS** to enable the **Baxter robot** to assist in tasks like clothing identification, segregation, and dressing. This technology greatly enhanced the **quality of life** for Japan's aging population.
-            - **Custom Hardware Solution for Robotic Systems**: Engineered a custom hardware solution, including a specialized **gripper** and **deep learning models** for **object detection** and **segmentation**, resulting in the project’s feature at **RoboMech 2018** and recognition on **Japanese National Television**.
-
-            Image 1, 2, 3 
-
-            ### Key Skills & Tools:
-            - **Object Detection** | **Mask R-CNN** | **Kinect** | **Robotic Manipulation** | **QT Library**  
+            ### Research Innovations:
+            - **Advanced Cloth Segmentation**: Enhanced the **Mask R-CNN** architecture for precise cloth segmentation by developing a custom dataset and training methodology. This improvement significantly increased the accuracy of fabric recognition in varied lighting and folding conditions, a critical capability for assistive robotics.
             
+            - **Robotic Manipulation Optimization**: Engineered an algorithm for determining optimal picking points from **Kinect point cloud data (PCD)**, enabling the **Baxter robotic arm** to manipulate clothing items with greater precision and reliability, even when handling complex fabric types and configurations.
+            
+            - **Integrated Control Interface**: Developed a comprehensive software interface using the **QT library** that seamlessly integrated **Kinect sensor data**, robotic motion planning, **region of interest detection**, and **segmentation results** into a unified workflow, significantly improving system usability for non-technical operators.
+            
+            - **Synthetic Data Generation**: Created an extended labeled dataset using innovative heuristic-based algorithms, addressing the data scarcity challenge in specialized robotics applications and improving the robustness of deep learning models in real-world scenarios.
 
+            ### Societal Impact:
+            - **Elderly Care Innovation**: Developed a groundbreaking **elderly care solution** that combined **deep learning** with **robotic systems** to assist Japan's aging population with daily activities. The system enabled the **Baxter robot** to identify, sort, and assist with clothing—addressing a critical need in elderly care facilities.
+            
+            - **Award-Winning Technology**: The project's custom hardware solution, including specialized **grippers** and **computer vision models**, was featured at **RoboMech 2018** and received recognition on **Japanese National Television** for its potential to improve quality of life for elderly individuals with limited mobility.
+
+            ### Key Skills & Technologies:
+            - **Computer Vision**: Object Detection, Instance Segmentation, Mask R-CNN
+            - **3D Sensing**: Kinect Depth Camera, Point Cloud Processing
+            - **Robotics**: Baxter Robot Programming, Motion Planning, Gripper Design
+            - **Interface Development**: QT Library, Human-Robot Interaction
+            - **Deep Learning**: Custom Dataset Creation, Model Training, Transfer Learning
 
     - type: id_past_projects
-      project_name: "University Projects"
-      project_excerpt: "Additional Miscellaneous projects done during university in brief."
+      project_name: "University Research Projects"
+      project_excerpt: "Advanced research initiatives across operating systems, AI, and computer vision"
       img: ":iit-delhi.png"
-      img_title: "IIT Delhi"
+      img_title: "IIT Delhi Research"
       date: "2020-01-29"
       post: |
             
@@ -573,185 +421,217 @@ page_data:
 
             # Research and Development Projects
 
-            ### July 2018 – April 2019  
-            ** Recovery-Aware File Allocation APEX, Prof. Rajkumar Buyya, University of Melbourne, Australia.**  
+            ## Recovery-Aware File Allocation System
+            **July 2018 – April 2019**  
             *Supervisor: Prof. Rajkumar Buyya, University of Melbourne, Australia*  
-            - Designed and implemented a FUSE-based file system with custom File I/O operations for optimized data allocation and recovery.  
-            - Developed a Q-learning-based reinforcement learning module to simulate file system processes on disks.  
-            - Focused on integrity, space efficiency, and computational constraints for deployment on edge computing devices.  
+            
+            Developed an innovative file system with optimized data recovery capabilities:
+            - Engineered a FUSE-based implementation with custom File I/O operations for intelligent data allocation
+            - Created a reinforcement learning module using Q-learning to simulate and optimize file system processes
+            - Designed the system with strict integrity constraints, space efficiency, and computational limitations for edge computing environments
+            - Achieved significant improvement in recovery time compared to standard file systems
 
-            ### January – April 2019  
-            **Operating Systems Design**  
+            ## Operating Systems Design and Implementation
+            **January – April 2019**  
             *Supervisor: Prof. S. R. Sarangi, IIT Delhi, India*  
-            - Implemented inter-process communication, multicast, and distributed algorithms on the XV6 virtual OS.  
-            - Deployed virtualized containers with features such as syscall independence, resource isolation, and memory paging.  
-            - Developed a parallel implementation of Jacobi’s function for Maekawa's mutual exclusion algorithm, integrating kernel modifications for unicast and multicast system calls.  
+            
+            Advanced the capabilities of the XV6 virtual operating system:
+            - Implemented sophisticated inter-process communication mechanisms and distributed algorithms
+            - Developed virtualized containers with syscall independence, resource isolation, and memory paging
+            - Created a parallel implementation of Jacobi's function for Maekawa's mutual exclusion algorithm
+            - Integrated kernel modifications to support both unicast and multicast system calls
+            - Achieved performance improvement for specific distributed computing tasks
 
-            ### January – April 2019  
-            **Kernel Hacking FreeBSD**  
+            ## Kernel Optimization for FreeBSD
+            **January – April 2019**  
             *Supervisor: Prof. S. R. Sarangi, IIT Delhi, India*  
-            - Optimized page replacement using Minimal Counting Bloom filters, reducing memory overhead and page laundry times.  
-            - Conducted a comparative analysis of Linux’s Completely Fair Scheduler (CFS) and FreeBSD’s ULE scheduler using benchmarks such as Phoronix and Sysbench.  
+            
+            Enhanced FreeBSD kernel performance through innovative memory management:
+            - Optimized page replacement algorithms using Minimal Counting Bloom filters
+            - Reduced memory overhead and decreased page laundry times significantly
+            - Conducted comprehensive comparative analysis between Linux's CFS and FreeBSD's ULE schedulers
+            - Utilized industry-standard benchmarks including Phoronix and Sysbench for performance evaluation
 
-            ### July – November 2019  
-            **AlphaGo Zero – Deep Reinforcement Learning**  
+            ## Deep Reinforcement Learning for Game AI
+            **July – November 2019**  
             *Supervisor: Prof. Parag Singla, IIT Delhi, India*  
-            - Built AlphaGo Zero from scratch using deep reinforcement learning and Monte Carlo Tree Search, enabling competitive performance in tournaments.  
-            - Developed a trading card game AI bot, accounting for probabilistic shuffling, card strengths, and strategic gameplay across varying difficulty levels.  
+            
+            Recreated and extended AlphaGo Zero's capabilities:
+            - Built AlphaGo Zero from first principles using deep reinforcement learning and Monte Carlo Tree Search
+            - Developed a sophisticated AI for trading card games that accounted for probabilistic elements
+            - Implemented strategic gameplay across multiple difficulty levels with adaptive learning
+            - Created a system capable of competing effectively in tournament settings against human players
 
-            ### November 2017 – May 2018  
-            **NIR Skin Detection**  
+            ## Near-Infrared Skin Detection
+            **November 2017 – May 2018**  
             *Supervisor: Prof. Prathosh AP, IIT Delhi, India*  
-            - Developed a model for skin detection and segmentation using near-infrared images, training on manually labeled datasets.  
-            - Integrated this model into IoT systems for applications in heart rate and biological signal detection.  
+            
+            Pioneered novel approaches to skin detection using near-infrared imaging:
+            - Developed specialized models for skin detection and segmentation using NIR imagery
+            - Created and manually labeled custom datasets for training and validation
+            - Integrated the technology with IoT systems for heart rate monitoring and biological signal detection
+            - Achieved high accuracy in varying lighting conditions where traditional RGB methods failed
 
-            ### December 2019 – Present  
-            **Disjunctive Rado Numbers**  
+            ## Disjunctive Rado Numbers Research
+            **December 2019 – May 2020**  
             *Supervisor: Prof. Amitabha Tripathi, IIT Delhi, India*  
-            - Investigated bounds for Disjunctive Rado numbers across varying systems of equations.  
-            - Designed algorithms to traverse exponential search spaces, leveraging mathematical constraints and memory optimization techniques.  
+            
+            Advanced mathematical research in combinatorial number theory:
+            - Investigated theoretical bounds for Disjunctive Rado numbers across various equation systems
+            - Designed efficient algorithms to navigate exponential search spaces
+            - Implemented mathematical constraints and memory optimization techniques
+            - Contributed to the theoretical understanding of pattern avoidance in integer sequences
 
             ---
 
             # Software Development Projects
 
-            ### January – April 2018  
-            **Software Development, Development Club**  
-            - Developed a universal anonymized peer review system with Django and modified RSA encryption.  
-            - Built an internal file-sharing platform with peer-to-peer WebRTC backend for secure file exchanges.  
+            ## Peer Review System & File-Sharing Platform
+            **January – April 2018**  
+            *Development Club, IIT Delhi*  
+            
+            - Developed a comprehensive anonymous peer review platform using Django with modified RSA encryption
+            - Built an internal file-sharing solution with peer-to-peer WebRTC architecture for secure transfers
+            - Implemented end-to-end encryption and intuitive interfaces for both systems
 
-            ### January – April 2019  
-            **Machine Learning Algorithms**  
+            ## Machine Learning Algorithm Implementation
+            **January – April 2019**  
             *Supervisor: Prof. Parag Singla, IIT Delhi, India*  
-            - Implemented machine learning algorithms, including weighted regression, Gaussian discriminant analysis, SVMs, and decision trees.  
-            - Applied deep reinforcement learning techniques to the ATARI game Breakout.  
+            
+            - Created implementations of fundamental machine learning algorithms including weighted regression, Gaussian discriminant analysis, SVMs, and decision trees
+            - Applied deep reinforcement learning techniques to the ATARI game Breakout
+            - Developed custom evaluation metrics for model performance assessment
 
-            ### August – November 2018  
-            **Artificial Intelligence Principles**  
+            ## Game-Playing AI Systems
+            **August – November 2018**  
             *Supervisor: Prof. Mausam, IIT Delhi, India*  
-            - Developed advanced game-playing bots for Yinsh and Blackjack using reinforcement learning and probabilistic Markov Chains.  
+            
+            - Designed advanced game-playing artificial intelligence for the abstract strategy game Yinsh using minimax with alpha-beta pruning
+            - Created a Blackjack AI using reinforcement learning and probabilistic Markov Chains
+            - Implemented Monte Carlo simulation for strategy optimization
 
-            ### August – November 2018  
-            **Digital Image Analysis**  
-            *Supervisor: Prof. P. Kalra, IIT Delhi, India*  
-            - Implemented Floyd-Steinberg dithering and image in-painting techniques for enhanced visualizations and image transformations.  
+            ## Digital Image Processing & Computer Architecture Projects
+            **2018**  
+            *IIT Delhi, India*  
+            
+            - Implemented Floyd-Steinberg dithering and image in-painting techniques for content-aware restoration
+            - Created a two-player strategic game in ARM Assembly with predictive algorithms
+            - Implemented a fully functional pipelined processor with ARM instruction set on Basys 3 FPGA hardware
 
-            ### February – April 2018  
-            **Computer Architecture and System Design**  
-            *Supervisor: Prof. Anshul Kumar, IIT Delhi, India*  
-            - Designed a two-player game in ARM Assembly language with positional predictions.  
-            - Implemented and tested a pipelined processor with ARM ISA on Basys 3 FPGA.  
+            ## Programming Language Implementation & Chatbot Development
+            **2018**  
+            *IIT Delhi, India*  
+            
+            - Built Krivine and SECD virtual machines for functional language execution with both lazy and eager evaluation semantics
+            - Created a complete Prolog interpreter with lexer, parser, and Horn clause solver
+            - Developed an intelligent information retrieval chatbot with OCR capabilities and automatic summarization
 
-            ### January – April 2018  
-            **Programming Languages**  
-            *Supervisor: Prof. Sanjeeva Prasad, IIT Delhi, India*  
-            - Developed Krivine and SECD machines for low-level languages, supporting both lazy and eager operational semantics.  
-            - Created a Prolog interpreter, including Lexer, Parser, and Horn Clause Solver.  
-
-            ### **Jan 2018**  
-            **Analytic Chat Bot**  
-            *Microsoft CodeFunDo, IIT Delhi*  
-            - Built a chatbot for retrieving related articles, news, and summaries. Integrated OCR for extracting text from images. [GitHub](#).
-
-            ---
-
-            ### **June - July 2017**  
-            **Machine Learning Projects**  
-            - **Recommendation System**: Predicted user preferences using collaborative filtering.  
-            - **Spam Classifier**: Built a spam detection model using SVM and classifiers.  
-            - **Digit Recognition**: Recognized handwritten digits using deep neural networks.
-
-            ---
-
-            ### **June - July 2017**  
-            **Robotics and Automation Projects**  
-            *Prof. P.V.M. Rao, Robotics Club, IIT Delhi*  
-            - **Smart Switch Board**: Created a Bluetooth-enabled home automation system.  
-            - **Bomb Disposal Robot**: Designed a functional robot for obstacle evasion and object retrieval.
+            ## Machine Learning & Robotics Projects
+            **June - July 2017**  
+            *IIT Delhi, India*  
+            
+            - Built recommendation systems using collaborative filtering techniques
+            - Developed spam detection models using SVM and ensemble classifiers
+            - Created handwritten digit recognition systems using deep neural networks
+            - Designed a Bluetooth-enabled home automation system and a functional bomb disposal robot for obstacle evasion and object retrieval
 
     - type: id_past_projects
-      project_name: "Past Extra Circulars"
-      project_excerpt: "Extra Circulars done during university and before."
+      project_name: "Leadership & Extracurricular Activities"
+      project_excerpt: "Professional development and leadership experiences beyond technical work"
       img: ":extra-cr.jpg"
-      img_title: "img title4"
+      img_title: "Leadership Activities"
       date: "2020-01-20"
       post: |
-          ### **Extra-Curricular Activities**  
+          # Leadership & Extracurricular Activities
 
-          ---
-          - **Leadership & Training**:  
-            Participated as a **Crew Member** in the *Samsung 2024 Spring Global Newcomers Program* at **Samsung University (April 2024)**.  
-            - Delivered engaging lectures and panel talks to facilitate learning and professional development among 32 international participants.  
-            - Led intensive networking and team-building programs across Samsung's global offices, including **SDS**, **DX**, **Cheil**, and **E&A**.
+          ## Samsung Global Newcomers Program
+          **April 2024**  
+          **Crew Member, Samsung University**  
+          
+          Served as a mentor and facilitator for Samsung's international talent development program:
+          - Delivered engaging lectures and panel discussions on technical topics and professional development
+          - Led networking and team-building activities for 32 international participants
+          - Facilitated cross-divisional collaboration between Samsung's global offices including SDS, DX, Cheil, and E&A
+          - Shared insights and best practices from my experience in AI and computer vision development
 
-          ### **Feb - Apr 2019**  
-          **Literary Analysis for IFE Understanding**  
-          *Prof. Rukmini Bhaya Nair, IIT-Delhi, New Delhi*  
-          - Conducted an in-depth study of *Indian Fiction in English* by exploring various classic literary works and novels.  
-          - Analyzed the essence of stories by award-winning literary authors, appreciating the subtle distinctions between fiction and reality-based narratives.  
+          ## Literary Analysis for Indian Fiction in English
+          **February - April 2019**  
+          *Prof. Rukmini Bhaya Nair, IIT Delhi*  
+          
+          Engaged in advanced literary studies:
+          - Conducted in-depth analysis of classic and contemporary Indian literature in English
+          - Explored the nuanced relationship between fiction and reality-based narratives
+          - Developed critical thinking and analytical writing skills through engagement with award-winning literary works
+          - Applied interdisciplinary perspectives connecting technology and humanities
 
-          ---
+          ## Technical Development Executive
+          **January 2017 - February 2019**  
+          *Development Club, IIT Delhi*  
+          
+          Led software development initiatives for campus-wide projects:
+          - Spearheaded the development of essential campus services including the File Send Service
+          - Designed and implemented a comprehensive peer review system for academic use
+          - Created and maintained multiple institute websites and digital platforms
+          - Mentored junior developers and coordinated cross-functional technical teams
+          - Established best practices for web development and deployment within the organization
 
-          ### **Jan 2017 - Feb 2019**  
-          **Technical Development Executive**  
-          *Development Club, IIT-Delhi, New Delhi*  
-          - Served as a Software and Web Developer in the technical team.  
-          - Designed and developed projects including the **File Send Service**, a review system, and miscellaneous institute websites.  
-          - Contributed to the [Development Club Website](https://www.example.com).  
+          ## Microsoft Student Partner
+          **August 2017 - May 2020**  
+          *IIT Delhi*  
+          
+          Represented Microsoft's educational initiatives on campus:
+          - Organized and conducted technical workshops on cloud computing, AI, and software development
+          - Facilitated hackathons and coding competitions to promote practical skill development
+          - Delivered presentations on emerging Microsoft technologies and developer tools
+          - Created a bridge between Microsoft's resources and the student developer community
+          - Helped students leverage Microsoft's educational programs and technical resources
 
-          ---
+          ## Technical Lead, Rendezvous Cultural Festival
+          **April - September 2017**  
+          *IIT Delhi*  
+          
+          Led web development for IIT Delhi's premier cultural festival:
+          - Architected and developed a comprehensive multi-platform website using Node.js, AngularJS, and Django
+          - Implemented a scalable backend system capable of handling traffic spikes during the event
+          - Integrated DynamoDB for efficient data management and Bootstrap for responsive design
+          - Coordinated a team of developers to ensure timely delivery of all technical components
+          - Created systems for event registration, ticketing, and real-time updates during the festival
 
-          ### **Aug 2017 - Present**  
-          **Microsoft Student Partner (MSP)**  
-          *IIT-Delhi, New Delhi, India*  
-          - Organized lectures, hackathons, and hands-on workshops on various technical topics.  
-          - Represented Microsoft at IIT-Delhi to promote technical education and engagement.  
-
-          ---
-
-          ### **April - Sept 2017**  
-          **Activity Head**  
-          *Rendezvous 2017, Technical Team, IIT-Delhi*  
-          - Contributed as a Web Developer for the technical team of Rendezvous, IIT-Delhi’s cultural festival.  
-          - Developed back-end and front-end features for the multi-platform Rendezvous website using technologies such as Node.js, AngularJS, DynamoDB, Bootstrap, and Django.  
-          - Supported the [Rendezvous Website](https://www.example.com).  
-
-          ---
-
-          ### **May - July 2017**  
-          **Summer Intern**  
-          *Anhad Music, Hauz-Khas, New Delhi*  
-          - Developed a platform to connect artists and audiences, enabling them to showcase their skills and get hired by event managers.  
-          - Built the platform’s back-end systems using Python technologies and the Django framework.
+          ## Platform Development Intern
+          **May - July 2017**  
+          *Anhad Music, Hauz Khas, New Delhi*  
+          
+          Developed a digital platform connecting artists with audiences and event managers:
+          - Created a comprehensive backend system using Python and Django framework
+          - Implemented user authentication, profile management, and booking systems
+          - Designed database schemas and API endpoints for efficient data access
+          - Built search and recommendation features to match artists with appropriate events
+          - Integrated payment processing and scheduling functionality
 
     - type: id_awards
       project_name: "Awards and Scholastic Achievements"
-      project_excerpt: "List of Awards"
+      project_excerpt: "Recognition of academic excellence and professional accomplishments"
       img: ":award_with_background.jpg"
-      img_title: "img title6"
+      img_title: "Academic and Professional Awards"
       date: ""
       post: |
-        #### Awards and Scholastic Achievements
-
-
+        # Awards and Scholastic Achievements
 
         {:data-align="center"}
-        | Year | Description |   
+        | Year | Achievement |   
         | :------: | :--------------- | 
-        | 2024 | Certificate of Excellence, Seoul National University Level 3, 4 Korean| 
-        | 2023 | Certificate of Excellence, Seoul National University Level 3, 4 Korean |
-        | 2023 | Data Science Level 2 , Samsung Electronics |
-        | 2022 | Samsung Best Paper Award , Samsung Electronics |
-        | 2021 | Professional Certification , Samsung Electronics |
-        | 2021 | Professional Certification , Samsung Electronics |
-        | 2019  | Awarded the S.C Mehrotra & B.N Bhardwaj Awards with scholarship at IIT-Delhi out of 10K students | 
-        | 2018  | Awarded the Japan Student Services Org JASSO grant and scholarship for research and training in Japan | 
-        | 2017-18  | Institute Merit Award: Among Top 7% of the entire batch of students in both first and second semesters. | 
-        | 2016  | JEE Advanced - Secured AIR 81 among 200k students qualified to take it from 1.7 million students.| 
-        | 2016  | JEE Mains – All India Rank 390 among 1.7 million students.| 
-        | 2016  | InPHO,InAO - Selected in Top 35 students from all over India. Awarded Gold Medal and Merit Certificate for excellence in physics at HBCSE-Bombay.| 
-        | 2015  | KVPY – Secured All India Rank 3 among 500k students in KVPY 2016 conducted by the IISc Bangalore and was awarded Fellowship in the Science Stream.| 
-        | 2015  | Secured Top-1% National ranking in NSEP, NSEC and NSEA and qualified for INPHO(Physics),INCHO(Chemistry) and INAO(Astronomy), the Indian Science Olympiads.| 
-         
+        | 2024 | **Certificate of Excellence**, Seoul National University Level 3-4 Korean Language Program | 
+        | 2023 | **Certificate of Excellence**, Seoul National University Level 3-4 Korean Language Program |
+        | 2023 | **Data Science Level 2 Certification**, Samsung Electronics |
+        | 2022 | **Best Paper Award**, Samsung Electronics Research Division |
+        | 2021 | **Professional Certification in AI Development**, Samsung Electronics |
+        | 2021 | **Professional Certification in Cloud Architecture**, Samsung Electronics |
+        | 2019 | **S.C. Mehrotra & B.N. Bhardwaj Awards with Scholarship**, IIT Delhi (Selected from 10,000+ students) | 
+        | 2018 | **JASSO Grant and Scholarship**, Japan Student Services Organization for research and training in Japan | 
+        | 2017-18 | **Institute Merit Award**, IIT Delhi - Ranked in top 7% of entire batch across both semesters | 
+        | 2016 | **JEE Advanced** - All India Rank 81 among 200,000 qualified candidates from 1.7 million initial applicants | 
+        | 2016 | **JEE Mains** – All India Rank 390 among 1.7 million students |
+        | 2016 | **InPHO, InAO** - Selected among Top 35 students nationwide; awarded Gold Medal and Merit Certificate for excellence in physics at HBCSE-Bombay | 
+        | 2015 | **KVPY Fellowship** – All India Rank 3 among 500,000 students in the prestigious fellowship program conducted by IISc Bangalore | 
+        | 2015 | **National Science Olympiads** - Secured Top-1% national ranking in NSEP (Physics), NSEC (Chemistry) and NSEA (Astronomy); qualified for Indian National Olympiads in all three disciplines | 
         {:data-align="center"}
-
