@@ -77,11 +77,11 @@ comments:
 # if no id is provided, this feature will be disabled.
 # make sure your environment does not match with google.analytics.ignore in _data/conf/main.yml
 google_analytics_id: "G-BB35FEC2F3"
-
 # there are different ways to verify web page. One is adding this as meta into html.
 # make sure you set meta.google_site_verify: true in _data/conf/main.yml
 # make sure your environment does not match with google.site_verification.ignore in _data/conf/main.yml
-google_site_verification: ""
+google_site_verification: "d8FbuF3-ptL2d5AAMW_1AZ2cYm9dfGLGm66iTnI1ALo"
+# <meta name="google-site-verification" content="d8FbuF3-ptL2d5AAMW_1AZ2cYm9dfGLGm66iTnI1ALo" />
 
 # make sure you set contact_form.enable: true in _data/conf/main.yml
 # - Create a form in Google Forms. You can use the template named "Contact Information".
