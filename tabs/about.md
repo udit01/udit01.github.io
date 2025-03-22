@@ -2,6 +2,8 @@
 layout: about
 # multilingual page pair id, this must pair with translations of this page. (This name must be unique)
 lng_pair: id_about
+title: "Udit Jain | Computer Vision Engineer & AI Specialist"
+description: "Computer Vision Engineer at Samsung Research with expertise in AI, deep learning, and robotics. Experience at Samsung, IIT, Harvard and Kyutech."
 
 # image for page specific usage
 img: ":about.jpg"
@@ -50,5 +52,4 @@ Beyond my professional endeavors, I engage in competitive machine learning chall
 
 I'm always open to collaboration on interesting projects. If you have ideas or opportunities where my expertise could add value, please don't hesitate to reach out.
 
-Auto Generated word cloud:
 ![Image](:about3.jpg){:data-align="center"}
