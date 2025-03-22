@@ -5,6 +5,30 @@
 # set domain: "your_github_user_name.github.io"
 domain: ""
 
+
+# Site settings for SEO
+title: "Udit Jain | Computer Vision Engineer & AI Specialist"
+description: "Portfolio of Udit Jain, Computer Vision Engineer at Samsung Research specializing in AI, deep learning, and robotics with experience at  Samsung, IIT, Harvard,  Kyutech."
+
+author: "Udit Jain"
+logo: /assets/img/logo.png # path to your logo
+social:
+  name: Udit Jain
+  links:
+    - https://github.com/udit01
+    - https://www.linkedin.com/in/uditjainiitd/
+    # Add other social media links if applicable
+lang: en_US
+locale: en_US
+
+# Jekyll SEO Tag
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+# Google Analytics
+google_analytics: # your Google Analytics tracking ID
+
 # your web site url
 # for GitHub Pages, url: "https://your_github_user_name.github.io"
 url: "https://udit01.github.io"
