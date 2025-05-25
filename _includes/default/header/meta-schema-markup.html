@@ -91,6 +91,9 @@
     {%- if site_default_desc %}
       ,"description": "{{ site_default_desc }}"
     {%- endif %}
+    {%- if meta_contact_pages.size > 0 %}
+      ,"sameAs": {{ meta_contact_pages | jsonify }}
+    {%- endif %}
   {%endcapture %}
   {%- assign organization_obj_meta_ld_json = organization_meta_ld_json | prepend: '{' | append: '}' %}
   {%- if publisher_id != organization_id and author_id != organization_id and copyright_id != organization_id and thing_id == organization_id -%}
