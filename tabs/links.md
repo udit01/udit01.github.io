@@ -67,9 +67,9 @@ page_data:
 
   list:
     - type: id_resume
-      title: "Udit Jain - Comprehensive Resume"
+      title: "Udit Jain - Resume"
       url: "https://drive.google.com/file/d/1hp81IaoKNDYjjmG2tCerTp56EoJQgVad/view?usp=sharing"
-      info: "My detailed professional resume highlighting experience at Samsung Research, academic achievements, and technical expertise in AI, computer vision, and software development."
+      info: "My professional resume highlighting experience at Samsung Research, academic achievements, and technical expertise in AI, computer vision, and software development."
     
     - type: id_resume
       title: "Education: Indian Institute of Technology, Delhi"
