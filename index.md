@@ -41,18 +41,20 @@ img: ":home-heading.jpg"
 
 {%- include util/auto-content-generator.liquid -%}
 
-# Welcome to My Digital Space
+# Innovating with AI & Computer Vision
 
-I am **Udit Jain**, an AI Engineer specializing in computer vision and machine learning solutions.
+Welcome! I am **Udit Jain**, a Computer Vision Engineer and AI Specialist dedicated to bridging the gap between advanced research and real-world applications.
 
-My expertise spans:
-- Computer Vision systems and algorithms
-- Data Analysis and pattern recognition
-- Deployment of large-scale AI models
-- Edge computing optimization for AI applications
+## What I Do
 
-I currently work at Samsung Research in Korea, where I develop intelligent features for next-generation appliances.
+I specialize in designing and deploying intelligent systems that can see, learn, and adapt. My core expertise includes:
+- **Computer Vision**: Developing robust algorithms for object detection, segmentation, and tracking.
+- **Deep Learning**: Architecting and training neural networks for complex pattern recognition tasks.
+- **Edge AI**: Optimizing high-performance models for resource-constrained devices.
+- **Data Strategy**: Transforming raw data into actionable insights through advanced analytics.
 
-Explore my projects, professional background, and technical insights through the navigation menu. My detailed resume is available in the Links section.
+Currently, I am driving innovation at **Samsung Research**, where I contribute to the next generation of smart appliances by integrating cutting-edge AI technologies.
 
-Let's connect and explore how AI can solve meaningful problems!
+Please navigate through the menu to explore my [Projects](/tabs/projects), read about my [Professional Journey](/tabs/about), or view my [Resume](/tabs/links).
+
+Let's collaborate to build the future of intelligent technology.

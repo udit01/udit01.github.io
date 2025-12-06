@@ -42,14 +42,16 @@ img: ":about.jpg"
 
 {%- include util/auto-content-generator.liquid -%}
 
-> I am **Udit Jain**, a Computer Vision Engineer at Samsung Research, Korea.
+> **Udit Jain** | Computer Vision Engineer @ Samsung Research
+
+I am a passionate AI practitioner based in South Korea, with a strong academic foundation from **IIT Delhi**. My professional journey is defined by a relentless pursuit of excellence in Computer Vision and Machine Learning.
 
 I specialize in developing AI-powered solutions with a focus on computer vision applications. My passion lies in the creative process of building innovative technologies that transform conceptual ideas into tangible solutions. This process of creation fascinates me—taking the chaos of possibilities and crafting ordered, functional systems that solve real-world problems.
 
 Currently, I'm enhancing Samsung's refrigerator product line by developing advanced AI models and algorithms for various use cases. My work involves designing and implementing computer vision systems that improve user experience through intelligent feature integration.
 
-Beyond my professional endeavors, I engage in competitive machine learning challenges on Kaggle, develop personal tech projects, and maintain a balanced lifestyle through reading, fitness, and strategic games like chess.
+Beyond my core work, I am an active contributor to the data science community, participating in Kaggle competitions and open-source projects. I believe in continuous learning and staying at the forefront of the rapidly evolving AI landscape.
 
-I'm always open to collaboration on interesting projects. If you have ideas or opportunities where my expertise could add value, please don't hesitate to reach out.
+I am always open to discussing new ideas, research collaborations, or consulting opportunities. Feel free to reach out.
 
 ![Image](:about3.jpg){:data-align="center"}

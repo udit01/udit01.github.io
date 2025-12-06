@@ -33,3 +33,9 @@ image_lazy_loader_on: true
 # to disable this page, simply set published: false or delete this file
 #published: false
 ---
+
+{%- include util/auto-content-generator.liquid -%}
+
+# Selected Projects
+
+Here are some of the key projects I have worked on, ranging from academic research to industrial applications. I believe in practical implementation as the best way to master new technologies.

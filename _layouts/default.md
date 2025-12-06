@@ -42,7 +42,7 @@ layout: util/compress
   <meta property="og:description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
   <meta property="og:image" content="{{ site.url }}/assets/img/profile.jpg">
 
-    <% seo %>
+
   </head>
 
   <body {{ default_dark }}>
