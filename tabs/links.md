@@ -55,6 +55,9 @@ page_data:
     - title: "Media Coverage"
       type: id_media
       color: "#14A273"
+    - title: "LLM & Agentic AI"
+      type: id_llm_ai
+      color: "#7B2FBE"
     - title: "Technical Skills"
       type: id_skills
       color: "yellow"
@@ -67,9 +70,14 @@ page_data:
 
   list:
     - type: id_resume
-      title: "Udit Jain - Resume"
+      title: "Udit Jain - Resume (PDF)"
+      url: "/assets/resume/udit_jain_resume.pdf"
+      info: "Download my resume directly. Covers my current role as Agentic AI Engineer at Samsung Research AI Core Team, with experience in LLM post-training, computer vision, and health data engineering."
+
+    - type: id_resume
+      title: "Udit Jain - Resume (Google Drive)"
       url: "https://drive.google.com/file/d/1hp81IaoKNDYjjmG2tCerTp56EoJQgVad/view?usp=sharing"
-      info: "My professional resume highlighting experience at Samsung Research, academic achievements, and technical expertise in AI, computer vision, and software development."
+      info: "Google Drive mirror of my professional resume. Always up-to-date with the latest version."
     
     - type: id_resume
       title: "Education: Indian Institute of Technology, Delhi"
@@ -135,6 +143,11 @@ page_data:
       title: "Samsung Health Research Stack Wins UX Design Award 2023"
       url: "https://research.samsung.com/news/Samsung-Health-Stack-Wins-UX-Design-Award-2023-for-Design-Excellence"
       info: "Recognition for the Samsung Health Research platform I helped develop. The award highlights the innovative user experience design that makes complex health data collection and visualization accessible to medical researchers."
+
+    - type: id_llm_ai
+      title: "LLM & Agentic AI"
+      url: ""
+      info: "• LLM Post-Training: RLHF, DPO, PPO, SFT pipelines\n• Reward modeling and preference learning\n• Knowledge distillation and model compression\n• Agent evaluation frameworks and multi-turn benchmarks\n• NeMo (distributed training), vLLM (inference serving)\n• Hugging Face Transformers, PEFT, LoRA\n• Benchmark development and automated evaluation pipelines\n• Distributed training on multi-node GPU clusters"
 
     - type: id_skills
       title: "Artificial Intelligence & Computer Vision"

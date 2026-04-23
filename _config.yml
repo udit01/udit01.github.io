@@ -3,15 +3,15 @@
 ###########################################################
 # if you want to force HTTPS, specify the domain without the http at the start
 # set domain: "your_github_user_name.github.io"
-domain: ""
+domain: "udit01.github.io"
 
 
 # Site settings for SEO
-title: "Udit Jain | Computer Vision Engineer & AI Specialist"
-description: "Portfolio of Udit Jain, Computer Vision Engineer at Samsung Research specializing in AI, deep learning, and robotics with experience at  Samsung, IIT, Harvard,  Kyutech."
+title: "Udit Jain | Agentic AI Engineer & LLM Specialist"
+description: "Portfolio of Udit Jain, Agentic AI Engineer at Samsung Research AI Core Team specializing in LLM post-training, RL, distillation, and agent systems. IIT Delhi alumnus."
 
 author: "Udit Jain"
-logo: /assets/img/logo.png # path to your logo
+# logo: /assets/img/logo.png  # no logo image currently; add one to enable
 social:
   name: Udit Jain
   links:
@@ -21,10 +21,7 @@ social:
 lang: en_US
 locale: en_US
 
-# Jekyll SEO Tag
-plugins:
-  - jekyll-seo-tag
-  - jekyll-sitemap
+# Jekyll SEO Tag (plugins merged into the main plugins block below)
 
 # Google Analytics
 google_analytics: "G-BB35FEC2F3" # your Google Analytics tracking ID
@@ -87,11 +84,15 @@ kramdown:
 plugins:
   - jekyll-paginate
   - jekyll-redirect-from
+  - jekyll-seo-tag
+  - jekyll-sitemap
 
 # since GitHub Pages runs jekyll with "--safe" flag, we need to add supported plugins in here. (only github supported plugins are allowed)
 whitelist:
   - jekyll-paginate
   - jekyll-redirect-from
+  - jekyll-seo-tag
+  - jekyll-sitemap
 
 ###########################################################
 # jekyll-paginate (https://jekyllrb.com/docs/pagination/)

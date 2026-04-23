@@ -29,7 +29,41 @@ page_data:
       color: "gray"
 
   list:
-  
+
+    - type: id_samsung
+      project_name: "Agentic AI & LLM Post-Training"
+      project_excerpt: "Building cutting-edge agentic AI models through post-training, RL, and distillation at Samsung Research AI Core Team"
+      img: ":samsung/other_projects.webp"
+      img_title: "Samsung Research AI Core Team"
+      date: "2025-04-01"
+      post: |
+        # Samsung Research -- AI Core Team
+        **Seoul, South Korea**
+        **Agentic AI Engineer**
+        *2024 - Present*
+
+        ### Focus Areas:
+        - **LLM Post-Training Pipelines**:
+          Designed and implemented end-to-end post-training workflows combining Supervised Fine-Tuning (SFT), Reinforcement Learning from Human Feedback (RLHF), and Direct Preference Optimization (DPO) to align large language models for instruction following and safety.
+
+        - **Reinforcement Learning for Language Models**:
+          Applied RL-based optimization (policy gradient, reward modeling, PPO variants) to improve model reasoning, long-horizon planning, and agentic task completion. Worked with both process-level and outcome-level reward signals.
+
+        - **Knowledge Distillation**:
+          Built distillation pipelines to transfer capabilities from frontier-scale teacher models to smaller, deployable student models -- maintaining benchmark performance while reducing compute and latency requirements.
+
+        - **Agent Evaluation Frameworks**:
+          Developed multi-turn agentic evaluation pipelines and benchmark suites covering tool use, long-context reasoning, and autonomous task completion. Designed evaluation infrastructure to measure agent performance at scale.
+
+        - **Training & Serving Infrastructure**:
+          Distributed model training using **NeMo** on multi-node GPU clusters. Large-scale inference and evaluation using **vLLM**. Built reproducible experiment pipelines with automated evaluation and result tracking.
+
+        ### Technical Stack:
+        - **Frameworks**: NeMo, vLLM, PyTorch, Hugging Face Transformers
+        - **Training Methods**: SFT, RLHF, DPO, PPO, knowledge distillation
+        - **Evaluation**: Multi-turn agent benchmarks, automated evaluation pipelines
+        - **Infrastructure**: Distributed training, multi-GPU/multi-node clusters
+
     - type: id_hci
       project_name: "Unbinding Bodies"
       project_excerpt: "Interactive Art Exhibition with Computer Vision Integration"
@@ -379,7 +413,7 @@ page_data:
     - type: id_intern
       project_name: "Brain & Human Intelligence Systems, Kyutech Institute of Technology"
       project_excerpt: "Creating robotic assistance systems for elderly care using computer vision and deep learning"
-      img: ":internships/kyutech_logo.jfif"
+      img: ":internships/kyutech_logo.jpg"
       img_title: "Kyutech Research"
       date: "2018-09-01"
       post: |

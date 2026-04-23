@@ -2,8 +2,8 @@
 layout: about
 # multilingual page pair id, this must pair with translations of this page. (This name must be unique)
 lng_pair: id_about
-title: "Udit Jain | Computer Vision Engineer & AI Specialist"
-description: "Computer Vision Engineer at Samsung Research with expertise in AI, deep learning, and robotics. Experience at Samsung, IIT, Harvard and Kyutech."
+title: "Udit Jain | Agentic AI Engineer"
+description: "Agentic AI Engineer at Samsung Research AI Core Team. IIT Delhi alumnus with expertise in LLM post-training, RL, distillation, and agent evaluation systems."
 
 # image for page specific usage
 img: ":about.jpg"
@@ -42,16 +42,16 @@ img: ":about.jpg"
 
 {%- include util/auto-content-generator.liquid -%}
 
-> **Udit Jain** | Computer Vision Engineer @ Samsung Research
+> **Udit Jain** | Agentic AI Engineer @ Samsung Research AI Core Team
 
-I am a passionate AI practitioner based in South Korea, with a strong academic foundation from **IIT Delhi**. My professional journey is defined by a relentless pursuit of excellence in Computer Vision and Machine Learning.
+I am an AI engineer based in South Korea, with a foundation in Computer Science from **IIT Delhi** (B.Tech, CGPA 9.10/10.0). I work at the frontier of large language model post-training and autonomous agent systems.
 
-I specialize in developing AI-powered solutions with a focus on computer vision applications. My passion lies in the creative process of building innovative technologies that transform conceptual ideas into tangible solutions. This process of creation fascinates me—taking the chaos of possibilities and crafting ordered, functional systems that solve real-world problems.
+At Samsung Research's AI Core Team, I build and train cutting-edge agentic AI models. My work spans the full post-training lifecycle: designing RLHF and DPO pipelines, implementing SFT for instruction following, applying knowledge distillation to compress frontier-scale capabilities into deployable models, and building the evaluation infrastructure to measure agent performance on multi-turn benchmarks.
 
-Currently, I'm enhancing Samsung's refrigerator product line by developing advanced AI models and algorithms for various use cases. My work involves designing and implementing computer vision systems that improve user experience through intelligent feature integration.
+Before this role, I spent two years as a Computer Vision Engineer in Samsung's Next Generation Digital Appliances division, where I shipped on-device food recognition models to millions of refrigerator users -- achieving <40MB model size and <70ms inference on NPU hardware. Prior to that, I built Samsung Health's research data platform and led large-scale analysis across 200M+ users' health data.
 
-Beyond my core work, I am an active contributor to the data science community, participating in Kaggle competitions and open-source projects. I believe in continuous learning and staying at the forefront of the rapidly evolving AI landscape.
+My engineering philosophy: understanding the system end-to-end matters more than mastering any single tool. Whether it is training a reward model, debugging a distributed NeMo run, or profiling an NPU kernel, I want to understand why it works -- not just that it does.
 
-I am always open to discussing new ideas, research collaborations, or consulting opportunities. Feel free to reach out.
+I am always open to discussing research ideas, technical collaborations, or new opportunities. Feel free to reach out.
 
 ![Image](:about3.jpg){:data-align="center"}
