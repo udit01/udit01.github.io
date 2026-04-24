@@ -2,7 +2,7 @@
 layout: about
 # multilingual page pair id, this must pair with translations of this page. (This name must be unique)
 lng_pair: id_about
-title: "Udit Jain | Agentic AI Engineer"
+title: "Agentic AI Engineer @ Samsung Research"
 description: "Agentic AI Engineer at Samsung Research AI Core Team. IIT Delhi alumnus with expertise in LLM post-training, RL, distillation, and agent evaluation systems."
 
 # image for page specific usage
