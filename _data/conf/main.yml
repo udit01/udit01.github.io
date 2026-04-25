@@ -277,7 +277,7 @@ meta:
   add_meta_date: false
   # please note that google does not use keywords, but other search engines may.
   keywords: true
-  google_site_verify: false
+  google_site_verify: true
   twitter_card: true
   open_graph: true
   open_graph_locale: true

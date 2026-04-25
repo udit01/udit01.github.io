@@ -41,20 +41,19 @@ img: ":home-heading.jpg"
 
 {%- include util/auto-content-generator.liquid -%}
 
-# Innovating with AI & Computer Vision
+# Building the Next Generation of Agentic AI
 
-Welcome! I am **Udit Jain**, a Computer Vision Engineer and AI Specialist dedicated to bridging the gap between advanced research and real-world applications.
+Welcome! I am **Udit Jain**, an Agentic AI Engineer at the **AI Core Team, Samsung Research**, focused on the frontier of large language model post-training and autonomous agent systems.
 
-## What I Do
+## What I Work On
 
-I specialize in designing and deploying intelligent systems that can see, learn, and adapt. My core expertise includes:
-- **Computer Vision**: Developing robust algorithms for object detection, segmentation, and tracking.
-- **Deep Learning**: Architecting and training neural networks for complex pattern recognition tasks.
-- **Edge AI**: Optimizing high-performance models for resource-constrained devices.
-- **Data Strategy**: Transforming raw data into actionable insights through advanced analytics.
+My current work lives at the intersection of post-training research and production-scale AI:
+- **LLM Post-Training**: RLHF, DPO, SFT pipelines for instruction-following and alignment
+- **Reinforcement Learning for LLMs**: Reward modeling, policy optimization, and RL-based fine-tuning
+- **Knowledge Distillation**: Transferring capabilities from frontier models to efficient, deployable targets
+- **Agentic Evaluation**: Building multi-turn agent benchmarks and evaluation pipelines for complex reasoning tasks
+- **Training Infrastructure**: Distributed training with NeMo, large-scale inference with vLLM
 
-Currently, I am driving innovation at **Samsung Research**, where I contribute to the next generation of smart appliances by integrating cutting-edge AI technologies.
+Previously, I led computer vision R&D for Samsung's next-generation smart appliances, shipped on-device AI models to millions of users, and built health data pipelines over Samsung Health's 200M+ user dataset.
 
-Please navigate through the menu to explore my [Projects](/tabs/projects), read about my [Professional Journey](/tabs/about), or view my [Resume](/tabs/links).
-
-Let's collaborate to build the future of intelligent technology.
+Please explore my [Projects](/tabs/projects), read about my [Professional Journey](/tabs/about), or view my [Resume & Skills](/tabs/links).

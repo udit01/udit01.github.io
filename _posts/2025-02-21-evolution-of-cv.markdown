@@ -3,6 +3,7 @@ layout: post
 title: "The Evolution of Computer Vision: From Traditional Methods to Deep Learning"
 date: 2025-02-21
 categories: [Computer Vision, AI History, Deep Learning]
+img: ":edge_computing.jpg"
 ---
 
 # The Evolution of Computer Vision: From Traditional Methods to Deep Learning
