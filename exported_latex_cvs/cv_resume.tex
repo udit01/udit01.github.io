@@ -1,0 +1,120 @@
+\documentclass[a4paper,10pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{geometry}
+\geometry{left=0.5in, top=0.5in, right=0.5in, bottom=0.5in}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Formatting
+\titleformat{\section}{
+  \vspace{-8pt}\scshape\raggedright\large\bfseries
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+\newcommand{\resumeItem}[1]{
+  \item\small{#1 \vspace{-2pt}}
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-1pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-5pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & #2 \\
+    \end{tabular*}\vspace{-5pt}
+}
+
+\begin{document}
+
+% --- HEADER ---
+\begin{center}
+    \textbf{\Huge \scshape Udit Jain} \\ \vspace{4pt}
+    \textbf{Computer Vision Engineer | AI Specialist} \\ \vspace{4pt}
+    \small \href{mailto:uditjainiitd@gmail.com}{uditjainiitd@gmail.com} $|$
+    \href{https://www.linkedin.com/in/uditjainiitd/}{linkedin.com/in/uditjainiitd} $|$
+    \href{https://github.com/udit01}{github.com/udit01} $|$
+    \href{https://udit01.github.io}{udit01.github.io}
+\end{center}
+
+
+% --- EDUCATION ---
+\section{Education}
+  \resumeSubheading
+    {Indian Institute of Technology, Delhi (IIT Delhi)}{New Delhi, India}
+    {Bachelor of Technology in Computer Science and Engineering; CGPA: 9.10/10.0}{2016 -- 2020}
+    \resumeItem{Specialization: Artificial Intelligence, Computer Vision, Systems Programming}
+
+
+% --- EXPERIENCE ---
+\section{Experience}
+  \begin{itemize}[leftmargin=0.15in, label={}]
+  
+    \resumeSubheading
+      {Samsung Research}{Seoul, South Korea}
+      {Computer Vision Engineer}{2020 -- Present}
+      \resumeItem{Lead engineer for vision systems in the \textbf{Samsung Bespoke AI Refrigerator}, enabling real-time food recognition and inventory tracking.}
+      \resumeItem{Designed and deployed end-to-end deep learning pipelines (detection, segmentation, tracking) on resource-constrained edge devices.}
+      \resumeItem{Optimized inference latency using \textbf{TensorFlow Lite}, quantization, and knowledge distillation for embedded NPU targets.}
+      \resumeItem{Awarded \textbf{Data Science Level 2 Certification} and \textbf{Professional AI Certification} by Samsung Electronics.}
+      \resumeItem{Collaborated with global teams to integrate AI features into consumer appliances, showcased at \textbf{CES 2024}.}
+
+    \resumeSubheading
+      {Kyutech Institute of Technology}{Kitakyushu, Japan}
+      {Robotics Research Intern}{Summer 2019}
+      \resumeItem{Developed an \textbf{Elderly Clothing Assistance} system using the BAXTER robot and ROS (Robot Operating System).}
+      \resumeItem{Implemented 3D sensing and path planning algorithms for human-robot interaction.}
+      \resumeItem{Project showcased at \textbf{RoboMech} and \textbf{iREX 2019}, receiving coverage on Japanese national television.}
+
+    \resumeSubheading
+      {Harvard University}{Cambridge, USA}
+      {Research Intern}{Summer 2018}
+      \resumeItem{Contributed to advanced research projects focusing on technology development and cross-cultural collaboration.}
+      \resumeItem{Gained global perspective on large-scale software engineering and academic research practices.}
+
+  \end{itemize}
+
+
+% --- PROJECTS & PUBLICATIONS ---
+\section{Key Projects \& Publications}
+  \begin{itemize}[leftmargin=0.15in, label={}]
+
+    \resumeProjectHeading
+      {\textbf{APEX: Adaptive Ext4 File System} $|$ \emph{Reinforcement Learning, Systems}}{2019}
+      \resumeItem{Co-authored paper published in \textbf{IEEE Cloud Computing 2019}.}
+      \resumeItem{Designed a novel file system for edge devices that improves data recoverability using reinforcement learning.}
+
+    \resumeProjectHeading
+      {\textbf{Samsung Health Research Stack} $|$ \emph{Data Engineering, UX}}{2023}
+      \resumeItem{Contributed to the development of a UX Design Award-winning platform for medical researchers.}
+      \resumeItem{Enabled large-scale collection and visualization of health data.}
+
+    \resumeProjectHeading
+      {\textbf{Transformative Effects of IoT \& Blockchain} $|$ \emph{Cloud Computing}}{2019}
+      \resumeItem{Published comprehensive analysis in Distibuted, Parallel, and Cluster Computing (cs.DC).}
+
+  \end{itemize}
+
+
+% --- SKILLS ---
+\section{Technical Skills}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+     \textbf{Languages}{: Python, C/C++, Java, Kotlin, SQL, Shell} \\
+     \textbf{AI \& CV}{: PyTorch, TensorFlow, Keras, OpenCV, Object Detection, Segmentation, TFLite} \\
+     \textbf{Data \& Cloud}{: AWS (S3, EMR), Spark, Hadoop, Docker, Git, CI/CD} \\
+     \textbf{Robotics}{: ROS, Point Cloud Processing, Embedded Systems}
+    }}
+ \end{itemize}
+
+\end{document}

@@ -1,0 +1,114 @@
+\documentclass[a4paper,10pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{geometry}
+\geometry{left=0.5in, top=0.5in, right=0.5in, bottom=0.5in}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Formatting
+\titleformat{\section}{
+  \vspace{-8pt}\scshape\raggedright\large\bfseries
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+\newcommand{\resumeItem}[1]{
+  \item\small{#1 \vspace{-2pt}}
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-1pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-5pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & #2 \\
+    \end{tabular*}\vspace{-5pt}
+}
+
+\begin{document}
+
+% --- HEADER ---
+\begin{center}
+    \textbf{\Huge \scshape Udit Jain} \\ \vspace{4pt}
+    \textbf{AI Engineer | Data Scientist} \\ \vspace{4pt}
+    \small \href{mailto:uditjainiitd@gmail.com}{uditjainiitd@gmail.com} $|$
+    \href{https://www.linkedin.com/in/uditjainiitd/}{linkedin.com/in/uditjainiitd} $|$
+    \href{https://github.com/udit01}{github.com/udit01} $|$
+    \href{https://udit01.github.io}{udit01.github.io}
+\end{center}
+
+
+% --- EDUCATION ---
+\section{Education}
+  \resumeSubheading
+    {Indian Institute of Technology, Delhi (IIT Delhi)}{New Delhi, India}
+    {Bachelor of Technology in Computer Science and Engineering; CGPA: 9.10/10.0}{2016 -- 2020}
+    \resumeItem{Relevant Coursework: Algorithms, Probability \& Statistics, Linear Algebra, Machine Learning}
+
+
+% --- EXPERIENCE ---
+\section{Experience}
+  \begin{itemize}[leftmargin=0.15in, label={}]
+  
+    \resumeSubheading
+      {Samsung Research}{Seoul, South Korea}
+      {Research Engineer}{2020 -- Present}
+      \resumeItem{Conducted large-scale data analysis on sleep patterns using anonymized data from millions of Samsung Health users.}
+      \resumeItem{Implemented statistical models (time series forecasting, significance testing) to identify global behavioral shifts during the COVID-19 pandemic; findings featured in global media.}
+      \resumeItem{Built and optimized data processing pipelines using \textbf{Spark} and \textbf{SQL} to handle terabytes of health data.}
+      \resumeItem{Developed \textbf{Samsung Health Research Stack}, a platform enabling medical researchers to collect and analyze granular health metrics.}
+      \resumeItem{Awarded \textbf{Data Science Level 2 Certification} (Advanced Statistical Analysis) by Samsung Electronics.}
+
+    \resumeSubheading
+      {Harvard University & Kyutech (Japan)}{International}
+      {Research Intern}{2018 -- 2019}
+      \resumeItem{Gained global research experience working on complex systems and algorithmic challenges.}
+      \resumeItem{Applied mathematical modeling to optimize robotic path planning and control systems.}
+
+  \end{itemize}
+
+
+% --- RESEARCH & PROBLEM SOLVING ---
+\section{Mathematical Research \& Projects}
+  \begin{itemize}[leftmargin=0.15in, label={}]
+
+    \resumeProjectHeading
+      {\textbf{Two-Color Disjunctive Rado Number} $|$ \emph{Combinatorial Number Theory}}{Under Review}
+      \resumeItem{Researched Ramsey Theory applications to systems of linear equations.}
+      \resumeItem{Developed novel algorithms to solve complex coloring problems, optimizing search space reduction.}
+
+    \resumeProjectHeading
+      {\textbf{APEX: Adaptive Ext4 File System} $|$ \emph{Reinforcement Learning, Systems}}{2019}
+      \resumeItem{Designed an adaptive file system using Reinforcement Learning for optimized data recoverability.}
+      \resumeItem{Formulated the recovery problem as an MDP and trained agents to minimize data loss probability.}
+
+    \resumeProjectHeading
+      {\textbf{Kaggle \& Competitive Programming}}{Ongoing}
+      \resumeItem{Active participant in predictive modeling competitions; leveraging ensemble methods and feature engineering.}
+      \resumeItem{Strong proficiency in Data Structures and Algorithms (C++/Python).}
+
+  \end{itemize}
+
+
+% --- SKILLS ---
+\section{Technical Skills}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+     \textbf{Programming}{: C++, Python (NumPy, Pandas, Scipy), SQL, Java} \\
+     \textbf{Quantitative Analysis}{: Time Series Analysis, Statistical Modeling, Hypothesis Testing, A/B Testing} \\
+     \textbf{Data Engineering}{: Spark, Hadoop, AWS (Athena, Glue), BigQuery} \\
+     \textbf{Machine Learning}{: Deep Learning (PyTorch/TF), Regression, Clustering, Dimensionality Reduction}
+    }}
+ \end{itemize}
+
+\end{document}

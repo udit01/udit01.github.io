@@ -3,6 +3,7 @@
 .*
 !.git*
 !.editorconfig
+!.well-known
 
 # jekyll Cache
 _site
