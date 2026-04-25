@@ -69,15 +69,15 @@ page_data:
       color: "gray"
 
   list:
-    - type: id_resume
-      title: "Udit Jain - Resume (PDF)"
-      url: "/assets/resume/udit_jain_resume.pdf"
-      info: "Download my resume directly. Covers my current role as Agentic AI Engineer at Samsung Research AI Core Team, with experience in LLM post-training, computer vision, and health data engineering."
+    # - type: id_resume
+    #   title: "Udit Jain - Resume (PDF)"
+    #   url: "/assets/resume/udit_jain_resume.pdf"
+    #   info: "Download my resume directly. Covers my current role as Agentic AI Engineer at Samsung Research AI Core Team, with experience in LLM post-training, computer vision, and health data engineering."
 
     - type: id_resume
       title: "Udit Jain - Resume (Google Drive)"
-      url: "https://drive.google.com/file/d/1hp81IaoKNDYjjmG2tCerTp56EoJQgVad/view?usp=sharing"
-      info: "Google Drive mirror of my professional resume. Always up-to-date with the latest version."
+      url: "https://drive.google.com/file/d/12DwPtGIxGKRJFw-cUNekgQgJ4rZFf8dk/view?usp=sharing"
+      info: "Google Drive mirror of my professional resume."
     
     - type: id_resume
       title: "Education: Indian Institute of Technology, Delhi"
