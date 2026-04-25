@@ -3,6 +3,7 @@ layout: post
 title: "Computer Vision on the Edge: Challenges and Solutions"
 date: 2025-02-07
 categories: [AI, Computer Vision, Edge Computing]
+img: ":edge_computing.jpg"
 ---
 
 # Computer Vision on the Edge: Challenges and Solutions

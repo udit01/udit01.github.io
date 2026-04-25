@@ -34,15 +34,6 @@ layout: util/compress
     {% include default/css-include.html %}
     {% include structured-data.html %}
     <link rel="canonical" href="{{ site.url }}{{ page.url | replace:'index.html','' }}" />
-
-    <!-- Open Graph / Facebook -->
-  <meta property="og:type" content="website">
-  <meta property="og:url" content="{{ site.url }}{{ page.url }}">
-  <meta property="og:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}">
-  <meta property="og:description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
-  <meta property="og:image" content="{{ site.url }}/assets/img/profile.jpg">
-
-
   </head>
 
   <body {{ default_dark }}>

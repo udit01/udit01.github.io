@@ -15,7 +15,7 @@ home:
   # you can also use $site_brand, $site_greetings, $site_welcome in line1 and line2 for replacing texts.
   top_header_line1: "Udit Jain"
   # if commented, top header will be a single line
-  top_header_line2: "Artificial Intelligence Engineer"
+  top_header_line2: "Agentic AI Engineer"
 
 # about page sub title
 about:
@@ -42,7 +42,7 @@ creative_commons:
 # seo meta this is needed for each language
 # If meta_description is not defined in front matter, it's created from (post / page) content,
 # if it has no content, this will be used for page description. It is also used in manifest.json
-meta_common_description: "Portfolio and Resume of Udit Jain, Computer Vision Engineer."
+meta_common_description: "Portfolio and Resume of Udit Jain, Agentic AI Engineer specializing in LLM post-training, reinforcement learning, and agent systems at Samsung Research."
 
 # contact options (side nav bottom and about page)
 # the order of the items will be shown as here.
